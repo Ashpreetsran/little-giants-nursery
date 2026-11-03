@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "domain": "littlegiantsnursery.org",
+  "zoneId": "3d25f43c6b2e7a7b60a24d87eb38df69",
+  "accountId": "7de2054057a3a4e21a36dc2191ddda20",
+  "activatedOn": "2026-08-03T16:40:32.993129Z",
+  "expectedZone": {
+    "status": "active",
+    "type": "full",
+    "paused": false,
+    "planLegacyId": "free"
+  },
+  "nameServers": [
+    "adel.ns.cloudflare.com",
+    "ganz.ns.cloudflare.com"
+  ],
+  "expectedRecords": [
+    {
+      "type": "AAAA",
+      "name": "littlegiantsnursery.org",
+      "content": "100::",
+      "proxied": true,
+      "priority": null
+    },
+    {
+      "type": "AAAA",
+      "name": "staging.littlegiantsnursery.org",
+      "content": "100::",
+      "proxied": true,
+      "priority": null
+    },
+    {
+      "type": "AAAA",
+      "name": "www.littlegiantsnursery.org",
+      "content": "100::",
+      "proxied": true,
+      "priority": null
+    },
+    {
+      "type": "CNAME",
+      "name": "_domainconnect.littlegiantsnursery.org",
+      "content": "_domainconnect.domains.squarespace.com",
+      "proxied": false,
+      "priority": null
+    },
+    {
+      "type": "MX",
+      "name": "bounce.send.littlegiantsnursery.org",
+      "content": "feedback-smtp.eu-west-1.amazonses.com",
+      "proxied": false,
+      "priority": 10
+    },
+    {
+      "type": "MX",
+      "name": "littlegiantsnursery.org",
+      "content": "alt1.aspmx.l.google.com",
+      "proxied": false,
+      "priority": 5
+    },
+    {
+      "type": "MX",
+      "name": "littlegiantsnursery.org",
+      "content": "alt2.aspmx.l.google.com",
+      "proxied": false,
+      "priority": 5
+    },
+    {
+      "type": "MX",
+      "name": "littlegiantsnursery.org",
+      "content": "alt3.aspmx.l.google.com",
+      "proxied": false,
+      "priority": 10
+    },
+    {
+      "type": "MX",
+      "name": "littlegiantsnursery.org",
+      "content": "alt4.aspmx.l.google.com",
+      "proxied": false,
+      "priority": 10
+    },
+    {
+      "type": "MX",
+      "name": "littlegiantsnursery.org",
+      "content": "aspmx.l.google.com",
+      "proxied": false,
+      "priority": 1
+    },
+    {
+      "type": "TXT",
+      "name": "bounce.send.littlegiantsnursery.org",
+      "content": "v=spf1 include:amazonses.com ~all",
+      "proxied": false,
+      "priority": null
+    },
+    {
+      "type": "TXT",
+      "name": "littlegiantsnursery.org",
+      "content": "\"google-site-verification=gMDHBOoxsa6pawgNyKgXRb1tNpSIOi_-iaTjET0wQZE\"",
+      "proxied": false,
+      "priority": null
+    },
+    {
+      "type": "TXT",
+      "name": "resend._domainkey.send.littlegiantsnursery.org",
+      "content": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDO09iDcPHqEX1M/5dXg3aC16vvisSorxCRKB9gqkwyU8WFEbqSnhNytjFU8Hd3YNBMLOdgFMRmFjSn4JB8nZlE4VQmjFHChif6D/yWkvHpNkd6mMhG33jZQDSRrmfgFjESjY+9YKtE8gcXrkqNHp31l/xzFDg6Q5LeELBjrilqKQIDAQAB",
+      "proxied": false,
+      "priority": null
+    }
+  ]
+}

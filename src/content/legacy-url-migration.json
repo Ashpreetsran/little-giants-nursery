@@ -1,0 +1,177 @@
+{
+  "sourceSitemap": "https://www.littlegiantsnursery.org/sitemap.xml",
+  "capturedAt": "2026-07-12T22:36:00+01:00",
+  "sourceSitemapPaths": [
+    "/about-us",
+    "/home-page-",
+    "/parent-information-",
+    "/get-in-touch",
+    "/careers",
+    "/why-choose-us"
+  ],
+  "redirects": [
+    {
+      "source": "/home-page-",
+      "destination": "/",
+      "statusCode": 301,
+      "reason": "squarespace-migration"
+    },
+    {
+      "source": "/home",
+      "destination": "/",
+      "statusCode": 301,
+      "reason": "squarespace-migration"
+    },
+    {
+      "source": "/about-us",
+      "destination": "/nurseries/uxbridge/about",
+      "statusCode": 301,
+      "reason": "squarespace-migration"
+    },
+    {
+      "source": "/why-choose-us",
+      "destination": "/nurseries/uxbridge/about",
+      "statusCode": 301,
+      "reason": "squarespace-migration"
+    },
+    {
+      "source": "/parent-information-",
+      "destination": "/nurseries/uxbridge/starting-nursery",
+      "statusCode": 301,
+      "reason": "squarespace-migration"
+    },
+    {
+      "source": "/get-in-touch",
+      "destination": "/nurseries/uxbridge/contact",
+      "statusCode": 301,
+      "reason": "squarespace-migration"
+    },
+    {
+      "source": "/about",
+      "destination": "/nurseries/uxbridge/about",
+      "statusCode": 301,
+      "reason": "location-restructure"
+    },
+    {
+      "source": "/curriculum",
+      "destination": "/nurseries/uxbridge/curriculum",
+      "statusCode": 301,
+      "reason": "location-restructure"
+    },
+    {
+      "source": "/curriculum/montessori",
+      "destination": "/nurseries/uxbridge/curriculum/montessori",
+      "statusCode": 301,
+      "reason": "location-restructure"
+    },
+    {
+      "source": "/curriculum/stem",
+      "destination": "/nurseries/uxbridge/curriculum/stem",
+      "statusCode": 301,
+      "reason": "location-restructure"
+    },
+    {
+      "source": "/rooms/babies",
+      "destination": "/nurseries/uxbridge/rooms/babies",
+      "statusCode": 301,
+      "reason": "location-restructure"
+    },
+    {
+      "source": "/rooms/toddlers",
+      "destination": "/nurseries/uxbridge/rooms/toddlers",
+      "statusCode": 301,
+      "reason": "location-restructure"
+    },
+    {
+      "source": "/rooms/preschool",
+      "destination": "/nurseries/uxbridge/rooms/preschool",
+      "statusCode": 301,
+      "reason": "location-restructure"
+    },
+    {
+      "source": "/fees-funding",
+      "destination": "/nurseries/uxbridge/fees-funding",
+      "statusCode": 301,
+      "reason": "location-restructure"
+    },
+    {
+      "source": "/ofsted",
+      "destination": "/nurseries/uxbridge/ofsted",
+      "statusCode": 301,
+      "reason": "location-restructure"
+    },
+    {
+      "source": "/food-nutrition",
+      "destination": "/nurseries/uxbridge/food-nutrition",
+      "statusCode": 301,
+      "reason": "location-restructure"
+    },
+    {
+      "source": "/nursery-environment",
+      "destination": "/nurseries/uxbridge/nursery-environment",
+      "statusCode": 301,
+      "reason": "location-restructure"
+    },
+    {
+      "source": "/send-inclusion",
+      "destination": "/nurseries/uxbridge/send-inclusion",
+      "statusCode": 301,
+      "reason": "location-restructure"
+    },
+    {
+      "source": "/starting-nursery",
+      "destination": "/nurseries/uxbridge/starting-nursery",
+      "statusCode": 301,
+      "reason": "location-restructure"
+    },
+    {
+      "source": "/contact",
+      "destination": "/nurseries/uxbridge/contact",
+      "statusCode": 301,
+      "reason": "location-restructure"
+    }
+  ],
+  "retained": [
+    {
+      "source": "/",
+      "destination": "/",
+      "statusCode": 200
+    },
+    {
+      "source": "/careers",
+      "destination": "/careers",
+      "statusCode": 200
+    }
+  ],
+  "preservedAssets": [
+    {
+      "source": "https://www.littlegiantsnursery.org/s/Little-Giants-Parent-Information-Apr-26-96x7.pdf",
+      "path": "/s/Little-Giants-Parent-Information-Apr-26-96x7.pdf",
+      "statusCode": 200,
+      "size": 1128201,
+      "sha256": "ea894a0a4596dfea1e13ddaff218dce1e5ffdcc916a609dbffe385832de7da75"
+    },
+    {
+      "source": "https://www.littlegiantsnursery.org/s/Parent-TCs.pdf",
+      "path": "/s/Parent-TCs.pdf",
+      "statusCode": 200,
+      "size": 223369,
+      "sha256": "6ed90278c0085f828d06d1b03eb16f2254a133dd5407ee79f72f2f93bcfb07d9"
+    }
+  ],
+  "retired": [
+    {
+      "source": "/cart",
+      "statusCode": 410,
+      "reason": "The source URL is an empty Squarespace commerce shell with no nursery content or replacement product."
+    }
+  ],
+  "fragmentAliases": [
+    {
+      "legacyUrl": "/get-in-touch#contact",
+      "destination": "/nurseries/uxbridge/contact#contact",
+      "targetId": "contact"
+    }
+  ],
+  "restructuredAt": "2026-09-21"
+}

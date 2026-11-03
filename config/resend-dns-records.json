@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "domain": "littlegiantsnursery.org",
+  "sendingDomain": "send.littlegiantsnursery.org",
+  "region": "eu-west-1",
+  "records": [
+    {
+      "purpose": "DKIM",
+      "type": "TXT",
+      "name": "resend._domainkey.send.littlegiantsnursery.org",
+      "content": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDO09iDcPHqEX1M/5dXg3aC16vvisSorxCRKB9gqkwyU8WFEbqSnhNytjFU8Hd3YNBMLOdgFMRmFjSn4JB8nZlE4VQmjFHChif6D/yWkvHpNkd6mMhG33jZQDSRrmfgFjESjY+9YKtE8gcXrkqNHp31l/xzFDg6Q5LeELBjrilqKQIDAQAB",
+      "ttl": 1
+    },
+    {
+      "purpose": "Return path",
+      "type": "MX",
+      "name": "bounce.send.littlegiantsnursery.org",
+      "content": "feedback-smtp.eu-west-1.amazonses.com",
+      "priority": 10,
+      "ttl": 1
+    },
+    {
+      "purpose": "SPF",
+      "type": "TXT",
+      "name": "bounce.send.littlegiantsnursery.org",
+      "content": "v=spf1 include:amazonses.com ~all",
+      "ttl": 1
+    }
+  ]
+}

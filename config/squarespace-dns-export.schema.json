@@ -1,0 +1,131 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.littlegiantsnursery.org/schemas/squarespace-dns-export.schema.json",
+  "title": "Little Giants Squarespace DNS export",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "domain",
+    "capturedAt",
+    "captureComplete",
+    "source",
+    "records"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "domain": {
+      "const": "littlegiantsnursery.org"
+    },
+    "capturedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "captureComplete": {
+      "const": true
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "provider",
+        "evidenceSha256"
+      ],
+      "properties": {
+        "provider": {
+          "const": "Squarespace DNS settings"
+        },
+        "evidenceSha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        }
+      }
+    },
+    "records": {
+      "type": "array",
+      "minItems": 11,
+      "items": {
+        "$ref": "#/$defs/record"
+      }
+    }
+  },
+  "$defs": {
+    "record": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "type",
+        "name",
+        "content",
+        "ttl"
+      ],
+      "properties": {
+        "type": {
+          "enum": [
+            "A",
+            "AAAA",
+            "CAA",
+            "CNAME",
+            "MX",
+            "NS",
+            "SRV",
+            "TXT"
+          ]
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "content": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ttl": {
+          "anyOf": [
+            {
+              "const": 1
+            },
+            {
+              "type": "integer",
+              "minimum": 60,
+              "maximum": 86400
+            }
+          ]
+        },
+        "priority": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 65535
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "MX"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "required": [
+              "priority"
+            ]
+          },
+          "else": {
+            "not": {
+              "required": [
+                "priority"
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}

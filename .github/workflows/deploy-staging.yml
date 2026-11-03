@@ -1,0 +1,63 @@
+name: Deploy staging
+
+# Production has deployed from CI since launch while staging only ever deployed
+# from a laptop. That asymmetry is why main and the local branch were able to
+# diverge for weeks without anyone noticing. Pushing to `staging` now publishes
+# https://staging.littlegiantsnursery.org the same way.
+
+on:
+  push:
+    branches: [staging]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-staging
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - run: npm run check
+
+      # Staging is the quality gate, so the suite runs here rather than on the
+      # production deploy, where a slow browser install would sit between a
+      # merge and the live site.
+      - name: Install Chrome for Playwright
+        run: npx playwright install --with-deps chrome
+
+      - run: npm run test:e2e
+
+      - run: npm run deploy:preview
+
+      # Give the new Worker version a moment before crawling the public
+      # hostname, so a cached response from the previous version cannot make a
+      # broken deploy look healthy.
+      - name: Let the new version settle
+        run: sleep 20
+
+      - name: Verify the deployed staging site
+        run: |
+          npm run verify:preview-indexing
+          npm run verify:security-headers
+          npm run verify:migration
+          npm run verify:live-crawl
+
+      - name: Summarise
+        if: always()
+        run: echo "https://staging.littlegiantsnursery.org" >> "$GITHUB_STEP_SUMMARY"

@@ -1,0 +1,45 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "main": "custom-worker.ts",
+  "name": "little-giants-nursery",
+  "workers_dev": false,
+  "cache": {
+    "enabled": true
+  },
+  "compatibility_date": "2026-07-12",
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS",
+    "run_worker_first": true
+  },
+  "images": {
+    "binding": "IMAGES"
+  },
+  "vars": {
+    "NEXT_PUBLIC_SITE_URL": "https://www.littlegiantsnursery.org",
+    "NEXT_PUBLIC_GTM_ID": "GTM-K5K5F4L4"
+  },
+  "observability": {
+    "enabled": true,
+    "logs": {
+      "enabled": true,
+      "head_sampling_rate": 1,
+      "invocation_logs": true,
+      "persist": true
+    }
+  },
+  "env": {
+    "preview": {
+      "name": "little-giants-nursery-preview",
+      "workers_dev": true,
+      "images": {
+        "binding": "IMAGES"
+      },
+      "vars": {
+        "NEXT_PUBLIC_SITE_URL": "https://www.littlegiantsnursery.org",
+        "NEXT_PUBLIC_GTM_ID": "GTM-K5K5F4L4"
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "domain": "littlegiantsnursery.org",
+  "zoneId": "3d25f43c6b2e7a7b60a24d87eb38df69",
+  "accountId": "7de2054057a3a4e21a36dc2191ddda20",
+  "createdOn": "2026-08-03T15:39:39.245308Z",
+  "pendingAutoRemovalRiskAfter": "2026-08-31T15:39:39.245308Z",
+  "expectedZone": {
+    "status": "pending",
+    "type": "full",
+    "paused": false,
+    "planLegacyId": "free",
+    "planPrice": 0
+  },
+  "assignedNameServers": [
+    "adel.ns.cloudflare.com",
+    "ganz.ns.cloudflare.com"
+  ],
+  "originalNameServers": [
+    "dns1.p02.nsone.net",
+    "dns2.p02.nsone.net",
+    "dns3.p02.nsone.net",
+    "dns4.p02.nsone.net"
+  ],
+  "baselinePath": "config/precutover-dns-baseline.json",
+  "resendRecordsPath": "config/resend-dns-records.json",
+  "privateExportSchemaPath": "config/squarespace-dns-export.schema.json",
+  "privateExportPath": "private/dns/squarespace-export.json",
+  "privatePlanPath": "private/dns/cloudflare-dns-plan.json",
+  "baselineTtls": {
+    "apexA": 14400,
+    "wwwCname": 14400,
+    "domainConnectCname": 14400,
+    "mx": 14400
+  },
+  "mutationPolicy": {
+    "requireCompleteSourceExport": true,
+    "requirePublicDelegationUnchanged": true,
+    "scanRejects": 0,
+    "deletes": 0,
+    "patches": 0,
+    "puts": 0,
+    "postsOnly": true
+  }
+}

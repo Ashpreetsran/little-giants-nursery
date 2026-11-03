@@ -1,0 +1,26 @@
+{
+  "customerId": "7066157358",
+  "customerIdFormatted": "706-615-7358",
+  "loginCustomerId": "7885271190",
+  "loginCustomerName": "Understanding Data MCC",
+  "apiVersion": "v25",
+  "onePasswordItem": "op://api-keys/Google Marketing APIs",
+  "conversionCustomerId": "18305078995",
+  "campaigns": {
+    "uxbridge": {
+      "id": "24057812593",
+      "name": "Local Nursery",
+      "budgetId": "15733506669"
+    },
+    "woodley": {
+      "id": "24268254621",
+      "name": "Local Nursery - Woodley",
+      "budgetId": "15897335245"
+    }
+  },
+  "notes": [
+    "v21 and v20 are sunset: they return 404. v22 to v25 resolve; v25 is pinned here.",
+    "googleAds:search no longer accepts pageSize.",
+    "AssetOperation does not accept policyValidationParameter, so a sitelink asset disapproved on a stale DESTINATION_NOT_WORKING has to be recreated rather than revalidated."
+  ]
+}

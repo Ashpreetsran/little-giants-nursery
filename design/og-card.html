@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      @font-face {
+        font-family: "Amatic";
+        font-weight: 700;
+        src: url("../src/app/fonts/amatic-bold.woff2") format("woff2");
+      }
+
+      @font-face {
+        font-family: "Josefin";
+        src: url("../src/app/fonts/josefin-sans-regular.woff2") format("woff2");
+      }
+
+      * { box-sizing: border-box; }
+
+      html, body {
+        height: 100%;
+        margin: 0;
+        width: 100%;
+      }
+
+      body {
+        background: #173f4b;
+        color: white;
+        font-family: "Josefin", sans-serif;
+        overflow: hidden;
+      }
+
+      .card {
+        background:
+          linear-gradient(90deg, rgba(14, 48, 57, 0.96) 0%, rgba(14, 48, 57, 0.87) 43%, rgba(14, 48, 57, 0.2) 72%, rgba(14, 48, 57, 0.04) 100%),
+          var(--hero-image, url("../public/images/source/about-us-12-img-9437.jpg")) var(--hero-position, center) / cover;
+        height: 630px;
+        isolation: isolate;
+        overflow: hidden;
+        padding: 62px 68px;
+        position: relative;
+        width: 1200px;
+      }
+
+      .card::before {
+        background: #89dbe6;
+        border-radius: 0 0 58% 42%;
+        content: "";
+        height: 22px;
+        inset: 0 0 auto;
+        position: absolute;
+      }
+
+      .card::after {
+        border: 3px dashed rgba(255, 212, 133, 0.65);
+        border-radius: 50%;
+        content: "";
+        height: 280px;
+        left: -150px;
+        position: absolute;
+        top: 390px;
+        width: 280px;
+      }
+
+      .eyebrow {
+        align-items: center;
+        color: #b9f0f2;
+        display: flex;
+        font-size: 20px;
+        font-weight: 700;
+        gap: 12px;
+        letter-spacing: 4px;
+        margin: 0 0 20px;
+        text-transform: uppercase;
+      }
+
+      .eyebrow span {
+        background: #ffd485;
+        border-radius: 50%;
+        display: block;
+        height: 11px;
+        width: 11px;
+      }
+
+      h1 {
+        font-family: "Amatic", cursive;
+        font-size: 98px;
+        letter-spacing: 1px;
+        line-height: 0.9;
+        margin: 0;
+        max-width: 680px;
+      }
+
+      h1.compact {
+        font-size: 82px;
+        line-height: 0.92;
+      }
+
+      .sub {
+        color: #e7f3f4;
+        font-size: 26px;
+        line-height: 1.35;
+        margin: 28px 0 0;
+        max-width: 600px;
+      }
+
+      .logo {
+        background: rgba(137, 219, 230, 0.94);
+        border: 8px solid rgba(255, 255, 255, 0.9);
+        border-radius: 50%;
+        box-shadow: 0 26px 70px rgba(0, 0, 0, 0.25);
+        height: 210px;
+        padding: 8px;
+        position: absolute;
+        right: 68px;
+        top: 58px;
+        transform: rotate(3deg);
+        width: 210px;
+      }
+
+      .logo img {
+        height: 100%;
+        object-fit: contain;
+        width: 100%;
+      }
+
+      .footer {
+        align-items: center;
+        bottom: 44px;
+        display: flex;
+        font-size: 20px;
+        gap: 18px;
+        left: 68px;
+        position: absolute;
+      }
+
+      .footer b { color: #ffd485; }
+      .footer i { color: #89dbe6; font-style: normal; }
+    </style>
+  </head>
+  <body>
+    <main class="card">
+      <p class="eyebrow"><span></span><b id="eyebrow">Little Giants Nursery, Brunel</b></p>
+      <h1 id="title">A STEM and Montessori nursery in Uxbridge</h1>
+      <p class="sub" id="subtitle">Nurturing curious, confident learners from their earliest years.</p>
+      <div class="logo"><img src="../public/images/brand/little-giants-logo.png" alt="" /></div>
+      <div class="footer"><b id="badge">Ofsted Good</b><span id="footer"><i>•</i> The Old School House <i>•</i> UB10 0AA</span></div>
+    </main>
+    <script>
+      const params = new URLSearchParams(window.location.search);
+      const title = params.get("title") || "A STEM and Montessori nursery in Uxbridge";
+      document.querySelector("#title").textContent = title;
+      document.querySelector("#title").classList.toggle("compact", title.length > 43);
+      document.querySelector("#subtitle").textContent = params.get("subtitle") || "Nurturing curious, confident learners from their earliest years.";
+      document.querySelector("#eyebrow").textContent = params.get("eyebrow") || "Little Giants Nursery, Brunel";
+      if (params.get("badge")) document.querySelector("#badge").textContent = params.get("badge");
+      if (params.get("footer")) document.querySelector("#footer").innerHTML = `<i>\u2022</i> ${params.get("footer").split(" | ").join(' <i>\u2022</i> ')}`;
+      if (params.get("image")) document.querySelector(".card").style.setProperty("--hero-image", `url("${params.get("image")}")`);
+      if (params.get("position")) document.querySelector(".card").style.setProperty("--hero-position", params.get("position"));
+    </script>
+  </body>
+</html>

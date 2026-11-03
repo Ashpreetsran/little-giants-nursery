@@ -1,0 +1,580 @@
+{
+  "$comment": [
+    "Definition for the second nursery's search campaign, mirroring the Uxbridge",
+    "campaign exported to uxbridge-campaign-export.json.",
+    "It is created PAUSED and stays paused until the nursery opens.",
+    "Postcode districts are the ones the client supplied, which together cover",
+    "Woodley, Twyford, Charvil, Wargrave, Hurst, Sonning, Caversham, Earley and Winnersh.",
+    "The cross negatives keep this campaign out of the Uxbridge campaign's auctions.",
+    "No headline or description claims an Ofsted grade for Woodley, which has not been inspected,",
+    "and none contains a phone number, which tripped a policy block on the Uxbridge ads.",
+    "Google flags 'near me' nursery keywords under RECREATIONAL_DRUGS. The flag is a false positive and Google marks it exemptible, so the listed keys are requested as exemptions rather than the keywords being dropped. The same flag hit the Uxbridge campaign in July 2026."
+  ],
+  "campaign": {
+    "name": "Local Nursery - Woodley",
+    "status": "PAUSED",
+    "advertisingChannelType": "SEARCH",
+    "biddingStrategyType": "TARGET_SPEND",
+    "budget": {
+      "name": "Local Nursery - Woodley",
+      "amountMicros": "6000000",
+      "deliveryMethod": "STANDARD",
+      "explicitlyShared": false
+    },
+    "networkSettings": {
+      "targetGoogleSearch": true,
+      "targetSearchNetwork": false,
+      "targetContentNetwork": false,
+      "targetPartnerSearchNetwork": false
+    },
+    "geoTargetTypeSetting": {
+      "positiveGeoTargetType": "PRESENCE",
+      "negativeGeoTargetType": "PRESENCE"
+    },
+    "languages": [
+      {
+        "name": "English",
+        "criterionId": "1000"
+      }
+    ],
+    "locations": [
+      {
+        "name": "RG5 (Woodley)",
+        "criterionId": "9046110"
+      },
+      {
+        "name": "RG10 (Twyford, Charvil, Wargrave, Hurst, Ruscombe)",
+        "criterionId": "9046109"
+      },
+      {
+        "name": "RG4 (Caversham, Sonning, Sonning Common)",
+        "criterionId": "9046112"
+      },
+      {
+        "name": "RG6 (Earley, Lower Earley)",
+        "criterionId": "9046108"
+      },
+      {
+        "name": "RG41 (Winnersh)",
+        "criterionId": "9046106"
+      }
+    ],
+    "negativeKeywords": [
+      {
+        "text": "garden",
+        "matchType": "BROAD"
+      },
+      {
+        "text": "furniture",
+        "matchType": "BROAD"
+      },
+      {
+        "text": "job",
+        "matchType": "BROAD"
+      },
+      {
+        "text": "jobs",
+        "matchType": "BROAD"
+      },
+      {
+        "text": "training",
+        "matchType": "BROAD"
+      },
+      {
+        "text": "wallpaper",
+        "matchType": "BROAD"
+      },
+      {
+        "text": "vacancy",
+        "matchType": "BROAD"
+      },
+      {
+        "text": "vacancies",
+        "matchType": "BROAD"
+      },
+      {
+        "text": "cv",
+        "matchType": "BROAD"
+      },
+      {
+        "text": "plant",
+        "matchType": "BROAD"
+      },
+      {
+        "text": "course",
+        "matchType": "BROAD"
+      },
+      {
+        "text": "second hand",
+        "matchType": "BROAD"
+      },
+      {
+        "text": "trees",
+        "matchType": "BROAD"
+      },
+      {
+        "text": "courses",
+        "matchType": "BROAD"
+      },
+      {
+        "text": "careers",
+        "matchType": "BROAD"
+      },
+      {
+        "text": "salary",
+        "matchType": "BROAD"
+      },
+      {
+        "text": "bedding",
+        "matchType": "BROAD"
+      },
+      {
+        "text": "plants",
+        "matchType": "BROAD"
+      },
+      {
+        "text": "for sale",
+        "matchType": "BROAD"
+      },
+      {
+        "text": "rhymes",
+        "matchType": "BROAD"
+      },
+      {
+        "text": "rhyme",
+        "matchType": "BROAD"
+      },
+      {
+        "text": "decor",
+        "matchType": "BROAD"
+      },
+      {
+        "text": "apprenticeship",
+        "matchType": "BROAD"
+      },
+      {
+        "text": "uxbridge",
+        "matchType": "BROAD"
+      },
+      {
+        "text": "hillingdon",
+        "matchType": "BROAD"
+      },
+      {
+        "text": "ickenham",
+        "matchType": "BROAD"
+      },
+      {
+        "text": "west drayton",
+        "matchType": "BROAD"
+      },
+      {
+        "text": "ruislip",
+        "matchType": "BROAD"
+      },
+      {
+        "text": "denham",
+        "matchType": "BROAD"
+      },
+      {
+        "text": "brunel",
+        "matchType": "BROAD"
+      }
+    ],
+    "adGroups": [
+      {
+        "name": "Nursery Woodley",
+        "status": "ENABLED",
+        "keywords": [
+          {
+            "text": "nursery woodley",
+            "matchType": "EXACT"
+          },
+          {
+            "text": "nursery woodley",
+            "matchType": "PHRASE"
+          }
+        ],
+        "finalUrl": "/nurseries/woodley",
+        "headline": "Nursery in Woodley"
+      },
+      {
+        "name": "Childcare Woodley",
+        "status": "ENABLED",
+        "keywords": [
+          {
+            "text": "childcare woodley",
+            "matchType": "EXACT"
+          },
+          {
+            "text": "childcare woodley",
+            "matchType": "PHRASE"
+          }
+        ],
+        "finalUrl": "/nurseries/woodley",
+        "headline": "Childcare in Woodley"
+      },
+      {
+        "name": "Day Nursery Woodley",
+        "status": "ENABLED",
+        "keywords": [
+          {
+            "text": "day nursery woodley",
+            "matchType": "EXACT"
+          },
+          {
+            "text": "day nursery woodley",
+            "matchType": "PHRASE"
+          }
+        ],
+        "finalUrl": "/nurseries/woodley",
+        "headline": "Day Nursery in Woodley"
+      },
+      {
+        "name": "Preschool Woodley",
+        "status": "ENABLED",
+        "keywords": [
+          {
+            "text": "preschool woodley",
+            "matchType": "EXACT"
+          },
+          {
+            "text": "preschool woodley",
+            "matchType": "PHRASE"
+          }
+        ],
+        "finalUrl": "/nurseries/woodley/rooms/preschool",
+        "headline": "Preschool in Woodley"
+      },
+      {
+        "name": "Montessori Nursery Woodley",
+        "status": "ENABLED",
+        "keywords": [
+          {
+            "text": "montessori nursery woodley",
+            "matchType": "EXACT"
+          },
+          {
+            "text": "montessori nursery woodley",
+            "matchType": "PHRASE"
+          }
+        ],
+        "finalUrl": "/nurseries/uxbridge/curriculum/montessori",
+        "headline": "Montessori Nursery, Woodley"
+      },
+      {
+        "name": "Nursery Reading",
+        "status": "ENABLED",
+        "keywords": [
+          {
+            "text": "nursery reading",
+            "matchType": "EXACT"
+          },
+          {
+            "text": "nursery reading",
+            "matchType": "PHRASE"
+          }
+        ],
+        "finalUrl": "/nurseries/woodley",
+        "headline": "New Nursery Near Reading"
+      },
+      {
+        "name": "Nursery Earley",
+        "status": "ENABLED",
+        "keywords": [
+          {
+            "text": "nursery earley",
+            "matchType": "EXACT"
+          },
+          {
+            "text": "nursery earley",
+            "matchType": "PHRASE"
+          }
+        ],
+        "finalUrl": "/nurseries/woodley",
+        "headline": "Nursery Near Earley"
+      },
+      {
+        "name": "Nursery Twyford",
+        "status": "ENABLED",
+        "keywords": [
+          {
+            "text": "nursery twyford",
+            "matchType": "EXACT"
+          },
+          {
+            "text": "nursery twyford",
+            "matchType": "PHRASE"
+          }
+        ],
+        "finalUrl": "/nurseries/woodley",
+        "headline": "Nursery Near Twyford"
+      },
+      {
+        "name": "Nursery Winnersh",
+        "status": "ENABLED",
+        "keywords": [
+          {
+            "text": "nursery winnersh",
+            "matchType": "EXACT"
+          },
+          {
+            "text": "nursery winnersh",
+            "matchType": "PHRASE"
+          }
+        ],
+        "finalUrl": "/nurseries/woodley",
+        "headline": "Nursery Near Winnersh"
+      },
+      {
+        "name": "Nursery Caversham",
+        "status": "ENABLED",
+        "keywords": [
+          {
+            "text": "nursery caversham",
+            "matchType": "EXACT"
+          },
+          {
+            "text": "nursery caversham",
+            "matchType": "PHRASE"
+          }
+        ],
+        "finalUrl": "/nurseries/woodley",
+        "headline": "Nursery Near Caversham"
+      },
+      {
+        "name": "Baby Nursery",
+        "status": "ENABLED",
+        "finalUrl": "/nurseries/woodley/rooms/babies",
+        "headline": "Baby Nursery in Woodley",
+        "keywords": [
+          {
+            "text": "baby nursery",
+            "matchType": "EXACT"
+          },
+          {
+            "text": "baby nursery",
+            "matchType": "PHRASE"
+          },
+          {
+            "text": "baby nursery near me",
+            "matchType": "EXACT"
+          }
+        ]
+      },
+      {
+        "name": "Toddler Nursery",
+        "status": "ENABLED",
+        "finalUrl": "/nurseries/woodley/rooms/toddlers",
+        "headline": "Toddler Nursery, Woodley",
+        "keywords": [
+          {
+            "text": "toddler nursery",
+            "matchType": "EXACT"
+          },
+          {
+            "text": "toddler nursery",
+            "matchType": "PHRASE"
+          }
+        ]
+      },
+      {
+        "name": "Preschool Near Me",
+        "status": "ENABLED",
+        "finalUrl": "/nurseries/woodley/rooms/preschool",
+        "headline": "Preschool Opening in Woodley",
+        "keywords": [
+          {
+            "text": "preschool",
+            "matchType": "EXACT"
+          },
+          {
+            "text": "preschool near me",
+            "matchType": "PHRASE"
+          },
+          {
+            "text": "preschool near me",
+            "matchType": "EXACT"
+          }
+        ]
+      },
+      {
+        "name": "Nursery Near Me",
+        "status": "ENABLED",
+        "finalUrl": "/nurseries/woodley",
+        "headline": "New Nursery Near You",
+        "keywords": [
+          {
+            "text": "nurseries near me",
+            "matchType": "EXACT"
+          },
+          {
+            "text": "nursery near me",
+            "matchType": "EXACT"
+          },
+          {
+            "text": "day nursery near me",
+            "matchType": "EXACT"
+          },
+          {
+            "text": "nursery near me",
+            "matchType": "PHRASE"
+          }
+        ]
+      },
+      {
+        "name": "Day Nursery",
+        "status": "ENABLED",
+        "finalUrl": "/nurseries/woodley",
+        "headline": "Day Nursery, Headley Road",
+        "keywords": [
+          {
+            "text": "day nursery",
+            "matchType": "EXACT"
+          },
+          {
+            "text": "day nursery",
+            "matchType": "PHRASE"
+          }
+        ]
+      },
+      {
+        "name": "Nursery School",
+        "status": "ENABLED",
+        "finalUrl": "/nurseries/woodley",
+        "headline": "Nursery School in Woodley",
+        "keywords": [
+          {
+            "text": "nursery school",
+            "matchType": "PHRASE"
+          },
+          {
+            "text": "nursery school",
+            "matchType": "EXACT"
+          },
+          {
+            "text": "nursery school near me",
+            "matchType": "EXACT"
+          }
+        ]
+      },
+      {
+        "name": "Private Nursery",
+        "status": "ENABLED",
+        "finalUrl": "/nurseries/woodley",
+        "headline": "Private Nursery, Woodley",
+        "keywords": [
+          {
+            "text": "private nursery",
+            "matchType": "EXACT"
+          },
+          {
+            "text": "private nursery near me",
+            "matchType": "EXACT"
+          }
+        ]
+      },
+      {
+        "name": "Funded Childcare",
+        "status": "ENABLED",
+        "finalUrl": "/nurseries/woodley/fees-funding",
+        "headline": "Funded Hours in Woodley",
+        "keywords": [
+          {
+            "text": "15 hours free childcare",
+            "matchType": "EXACT"
+          },
+          {
+            "text": "30 hours free childcare",
+            "matchType": "EXACT"
+          },
+          {
+            "text": "30 hours free childcare",
+            "matchType": "PHRASE"
+          },
+          {
+            "text": "free childcare near me",
+            "matchType": "EXACT"
+          }
+        ]
+      },
+      {
+        "name": "Nursery Fees",
+        "status": "ENABLED",
+        "finalUrl": "/nurseries/woodley/fees-funding",
+        "headline": "Woodley Nursery Fees",
+        "keywords": [
+          {
+            "text": "nursery fees",
+            "matchType": "PHRASE"
+          },
+          {
+            "text": "nursery fees",
+            "matchType": "EXACT"
+          },
+          {
+            "text": "nursery cost",
+            "matchType": "EXACT"
+          }
+        ]
+      },
+      {
+        "name": "Childcare Broad",
+        "status": "PAUSED",
+        "finalUrl": "/nurseries/woodley",
+        "headline": "Childcare in Woodley",
+        "keywords": [
+          {
+            "text": "childcare",
+            "matchType": "PHRASE"
+          },
+          {
+            "text": "childcare",
+            "matchType": "EXACT"
+          },
+          {
+            "text": "childcare near me",
+            "matchType": "EXACT"
+          },
+          {
+            "text": "childcare near me",
+            "matchType": "PHRASE"
+          }
+        ]
+      }
+    ],
+    "sharedHeadlines": [
+      "Little Giants Nursery",
+      "Opening Soon in Woodley",
+      "Register Your Interest",
+      "Babies, Toddlers & Preschool",
+      "STEM & Montessori Inspired",
+      "Headley Road, Woodley",
+      "Open 51 Weeks, 7:30am to 6pm",
+      "Curiosity-Led Early Years",
+      "Learning Through Play",
+      "A Named Key Person",
+      "Meals & Nappies Included",
+      "Be First To Hear More",
+      "Where Little Minds Blossom",
+      "Early Learning, Lasting Impact"
+    ],
+    "descriptions": [
+      "A new STEM and Montessori nursery opening soon on Headley Road in Woodley, Reading.",
+      "Dedicated baby, toddler and preschool rooms, with learning planned around each child.",
+      "Register your interest to hear first about opening dates, fees and the earliest places.",
+      "From the team behind our Ofsted Good Uxbridge nursery. Close to Earley and Twyford."
+    ],
+    "containsEuPoliticalAdvertising": "DOES_NOT_CONTAIN_EU_POLITICAL_ADVERTISING",
+    "exemptKeywordPolicyViolations": [
+      {
+        "policyName": "RECREATIONAL_DRUGS",
+        "violatingText": "nursery near me"
+      },
+      {
+        "policyName": "RECREATIONAL_DRUGS",
+        "violatingText": "private nursery near me"
+      }
+    ]
+  }
+}

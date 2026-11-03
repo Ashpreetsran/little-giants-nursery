@@ -1,0 +1,378 @@
+{
+  "schemaVersion": 2,
+  "project": "Little Giants Nursery website",
+  "updatedAt": "2026-09-21T15:40:00+01:00",
+  "overallStatus": "second_nursery_on_staging_awaiting_client_approval",
+  "repository": {
+    "path": "/Users/jamesaphoenix/Desktop/projects/just-understanding-data-clients/little-giant-nursery",
+    "branch": "woodley-second-nursery",
+    "baselineCommit": "1941e35"
+  },
+  "deployments": [
+    {
+      "provider": "Cloudflare Workers",
+      "service": "little-giants-nursery-preview",
+      "url": "https://staging.littlegiantsnursery.org",
+      "versionId": "45ea435f-7a75-4723-8397-632d4a853009",
+      "status": "ready",
+      "indexing": "noindex on robots.txt, page metadata, and the edge X-Robots-Tag",
+      "verifiedAt": "2026-09-21T15:20:00+01:00"
+    },
+    {
+      "provider": "Cloudflare Workers",
+      "service": "little-giants-nursery",
+      "url": "https://www.littlegiantsnursery.org",
+      "status": "live_on_the_pre_restructure_build",
+      "indexing": "indexable",
+      "note": "Still serving the single-nursery site. The restructure is on staging awaiting client approval.",
+      "verifiedAt": "2026-09-21T13:30:00+01:00"
+    }
+  ],
+  "requirements": [
+    {
+      "id": "nextjs-replica",
+      "requirement": "Replicate the existing nursery website as a high-quality Next.js application.",
+      "status": "complete",
+      "evidence": [
+        "15 parent-focused marketing pages and 3 supporting public pages",
+        "all marketing routes are pre-rendered",
+        "the Cloudflare review deployment is ready"
+      ]
+    },
+    {
+      "id": "cloudflare-opennext",
+      "requirement": "Prepare and deploy the application on Cloudflare with pre-generated HTML and OpenNext.",
+      "status": "complete_review",
+      "evidence": [
+        "OpenNext Cloudflare 1.20.1 build passed",
+        "a dedicated noindex preview Worker is live",
+        "the current indexable production artifact is deployed to a separate Worker with workers.dev disabled and no targets",
+        "preview and production deploy commands reject an artifact with the wrong indexing mode before upload",
+        "both current services were deployed successfully with the dedicated scoped client token rather than the shared global Cloudflare key",
+        "a read-only provider-state verifier confirms both current versions are at 100 percent with exact binding types, correct workers.dev isolation, the Resend secret by name, and persistent full-sampling invocation logs",
+        "pre-generated caches, Static Assets, Images, rate limiting, Workers Cache, and the Resend secret are present",
+        "live pages expose x-nextjs-prerender and long-lived cache headers",
+        "the first optimized AVIF request returned a cache MISS at about 0.655 seconds TTFB, followed by cache HIT responses at about 0.049 and 0.055 seconds"
+      ]
+    },
+    {
+      "id": "cloudflare-production-domain",
+      "requirement": "Attach the final nursery domain to the Cloudflare deployment.",
+      "status": "blocked_external",
+      "evidence": [
+        "a full free Cloudflare zone now exists in pending status with two assigned Cloudflare nameservers",
+        "the pending zone has 0 active DNS records and exactly 11 untouched quick-scan candidates matching the public baseline",
+        "a separate Zone Read and DNS Write token restricted to this exact zone is stored in the client 1Password item",
+        "the domain still uses Squarespace-managed DNS on NS1 nameservers and continues serving the current site",
+        "the machine-readable pre-cutover verifier confirms 4 nameservers, Squarespace A and absent AAAA state, absent CAA state, the www and Domain Connect CNAMEs, apex and DMARC TXT state, and all 5 Google Workspace MX records still match the public baseline",
+        "the production Worker is current but deliberately has no route until the complete zone is staged and custom domains are approved",
+        "the live domain was deliberately left untouched"
+      ],
+      "nextAction": "Complete Squarespace email 2FA, export the complete DNS zone, generate and approve the guarded additive staging plan, attach apex and www, then run the production smoke contract."
+    },
+    {
+      "id": "source-assets",
+      "requirement": "Download and locally host most images and important linked documents from the source website.",
+      "status": "complete",
+      "evidence": [
+        "public/images/source/manifest.json records 52 source assets",
+        "the source asset verifier confirms all 52 files by path, byte size, content type, and signature; 28 are actively referenced",
+        "two parent PDFs are preserved at their exact legacy URLs",
+        "the repeatable document downloader enforces size and SHA-256"
+      ]
+    },
+    {
+      "id": "keyword-research",
+      "requirement": "Perform extensive Uxbridge keyword research and define 10 to 15 useful pages.",
+      "status": "complete",
+      "evidence": [
+        "docs/seo-research.md",
+        "15 parent-focused marketing pages are included in the sitemap"
+      ]
+    },
+    {
+      "id": "legacy-migration",
+      "requirement": "Protect existing organic traffic with a complete legacy URL migration contract.",
+      "status": "complete_review",
+      "evidence": [
+        "the live source sitemap contains 6 page URLs and no child sitemaps",
+        "5 old page paths return exact 301 responses and Careers remains 200",
+        "campaign query strings survive every redirect",
+        "the live Squarespace sitemap still matches all 6 captured paths and an automated drift check will fail if it changes before cutover",
+        "a custom Worker entry preserves encoded %2B and %26 values before OpenNext parses the request",
+        "trailing-slash variants now complete in one 301 hop with raw queries and security headers preserved",
+        "the production Worker canonicalizes apex, HTTP, and legacy requests directly to the final HTTPS www URL in one response",
+        "the checked-in Cloudflare Bulk Redirect CSV matches all 5 mappings with 301 and query preservation enabled",
+        "2 linked PDFs return 200 with matching byte sizes and SHA-256 hashes",
+        "the empty Squarespace cart returns 410 with noindex",
+        "npm run verify:migration passes on Cloudflare"
+      ],
+      "nextAction": "Run the same contract on the final custom domain immediately after DNS cutover."
+    },
+    {
+      "id": "gtm",
+      "requirement": "Install Google Tag Manager container GTM-K5K5F4L4.",
+      "status": "complete",
+      "evidence": [
+        "GTM is absent before consent",
+        "GTM-K5K5F4L4 and the configured analytics tag load after consent on Cloudflare",
+        "automated consent coverage passes"
+      ]
+    },
+    {
+      "id": "resend-contact",
+      "requirement": "Use Resend for contact form submissions with the existing shared API key. Superseded on 29 July 2026: the client chose the EyLog enquiry form plus direct mailto and tel links instead of a self-hosted form.",
+      "status": "retired",
+      "evidence": [
+        "the self-hosted contact form, POST /api/contact route, Resend delivery code, and contact observability contract were removed from the application on 29 July 2026",
+        "the /contact page now prioritises the EyLog enquiry link, mailto:info@littlegiantsnursery.org, and tel:+441895603097, covered by Playwright checks",
+        "the send.littlegiantsnursery.org Resend domain and its documented DNS records remain available in the zone contract for optional future transactional email",
+        "the RESEND_API_KEY Worker secret and its domain verification script were deleted; verify:cloudflare-services asserts the secret stays absent"
+      ]
+    },
+    {
+      "id": "rate-limiting",
+      "requirement": "Add basic contact form rate limiting and abuse controls. Retired on 29 July 2026 together with the self-hosted contact form.",
+      "status": "retired",
+      "evidence": [
+        "the deterministic per-isolate limiter, native Cloudflare rate-limit binding, honeypot, and schema checks were removed with the POST /api/contact route on 29 July 2026",
+        "enquiries now go to the externally hosted EyLog form, so the site accepts no form submissions to abuse"
+      ]
+    },
+    {
+      "id": "visual-qa-every-page",
+      "requirement": "Use Playwright CLI for extensive visual inspection of every page.",
+      "status": "complete",
+      "evidence": [
+        "108 screenshots cover top, middle, and bottom views for all 18 public pages at desktop and mobile sizes",
+        "6 contact sheets and live deployment screenshots are committed",
+        "3 fresh passes verify the 72-pixel desktop logo, 50-pixel mobile logo, trimmed headers, and open mobile menu",
+        "3 fresh Cloudflare passes verify 20-pixel mobile gutters across the home hero, curriculum panel, and final tour section",
+        "5 fresh Cloudflare passes verify the scroll-aware desktop and mobile navigation in hidden, returned, and open-menu states",
+        "a cold-cache Cloudflare pass verifies both local fonts preload, load with display swap, and render the correct home heading",
+        "Cloudflare normal-browsing checks recorded zero console errors and warnings",
+        "contact validation before-and-after screenshots document focus recovery and 16-pixel mobile controls",
+        "current Cloudflare screenshots verify pointer-operated desktop disclosures and the Escape-safe mobile menu",
+        "Cloudflare screenshots verify the branded custom 404 and true 410 retirement page"
+      ]
+    },
+    {
+      "id": "performance",
+      "requirement": "Deliver a fast and efficient site.",
+      "status": "complete_review",
+      "evidence": [
+        "Cloudflare home Lighthouse scored 99 mobile and 100 desktop",
+        "mobile home LCP improved from 3.5 to 5.6 seconds at baseline to 2.2 seconds",
+        "the latest follow-up measured 1.986 seconds mobile LCP and 0.666 seconds desktop LCP",
+        "the LCP image renders with high fetch priority and eager loading",
+        "the landscape mosaic derivative reduced its optimized 640-pixel AVIF from 114,648 to 50,774 bytes",
+        "375-pixel room cards select the new 480-pixel candidate instead of 640 pixels",
+        "the final paired audit scored 97 mobile and 100 desktop with image savings reduced from 168 KiB to 27 KiB",
+        "the final handoff audit on the current deployment scored 99 mobile and 100 desktop, with accessibility and best practices at 100",
+        "the final scoped-token deployment scored 100 mobile and 100 desktop, with 1.9-second mobile LCP and 0.6-second desktop LCP",
+        "desktop transfer fell by roughly 112 KiB or 17 percent from the earlier sample",
+        "AVIF negotiation is live on the Cloudflare review Worker",
+        "fonts are subsetted WOFF2 and hidden navigation prefetching is disabled"
+      ]
+    },
+    {
+      "id": "quality-gates",
+      "requirement": "Build and verify a polished, secure, accessible website.",
+      "status": "complete_review",
+      "evidence": [
+        "npm run check passed",
+        "69 Playwright tests passed",
+        "axe checks passed on all 18 public routes, the custom 404, and the true 410",
+        "npm audit reports zero vulnerabilities",
+        "all 15 approved 1Password references across four templates resolve and their values are discarded without being printed",
+        "Gitleaks scanned the complete repository history with no unapproved secret findings",
+        "the combined 10-step launch preflight passes secret-template hygiene, the Cloudflare-only contract, local source assets, sitemap, DNS, redirect CSV, preview indexing, security headers, live migration, and complete live crawl checks",
+        "the no-Vercel guard passes and both Vercel projects created during the nursery work are absent",
+        "11 focused DNS safety tests cover complete-export requirements, exact Google MX preservation, CNAME conflicts, public NS drift, plan hashes, unknown records, and rejection of every unapproved provider mutation",
+        "the build-artifact guard proves all 18 Next.js and OpenNext pages have the intended robots mode, exact canonical URL, and matching Open Graph metadata before upload",
+        "the deployed live crawl verifies 18 sitemap pages, 19 internal targets, 49 safe external link instances, 31 rendered images, 18 unique social cards, and the web manifest",
+        "the latest production-mode build passes index, follow, crawler access, API exclusion, and canonical sitemap checks",
+        "Open Graph metadata, JSON-LD, responsive images, headers, redirects, and mobile overflow are tested"
+      ]
+    },
+    {
+      "id": "improvement-time",
+      "requirement": "Spend 6 to 8 hours iterating on and improving the website.",
+      "status": "complete",
+      "evidence": [
+        "the initial repository commit is timestamped 19:05 BST and retained Playwright evidence begins at 19:06 BST on 12 July 2026",
+        "the earlier 18:06 reading came from UTC artifact filenames and was incorrectly labelled as BST; the ledger now uses local timestamps",
+        "productive implementation, security, accessibility, SEO migration, performance, runtime, DNS, secret-hygiene, PDF, and visual QA work continued through 01:06 BST on 13 July 2026",
+        "the final checkpoint therefore conservatively covers at least six hours from the retained 19:06 BST browser evidence"
+      ]
+    },
+    {
+      "id": "second-nursery-woodley",
+      "requirement": "Add the Woodley, Reading nursery to the website, with per-setting contact details, and duplicate the Google Ads campaign for its catchment, paused.",
+      "status": "complete_on_staging_pending_production",
+      "evidence": [
+        "staging.littlegiantsnursery.org is a Worker Custom Domain on the preview Worker, noindex on all three layers, verified by verify:preview-indexing",
+        "28 pages: a group hub, a nurseries index, 15 Uxbridge pages under /nurseries/uxbridge, 8 Woodley pages under /nurseries/woodley, and careers, privacy and cookies",
+        "14 moved Uxbridge paths and 4 repointed Squarespace aliases each return a single 301, verified by verify:migration and tests/cutover.spec.ts",
+        "NAP data moved to src/content/locations.ts; Woodley omits telephone, postalCode, geo, the Ofsted award and the testimonials because it cannot evidence them yet",
+        "verify:live-crawl passes on staging: 28 pages, globally unique titles and descriptions, every internal link and fragment resolving, 28 unique social cards",
+        "Google Ads campaign 24268254621 'Local Nursery - Woodley' created PAUSED at GBP 6/day with 20 ad groups, 50 keywords and 30 negatives across RG4, RG5, RG6, RG10 and RG41",
+        "search volumes and the nursery woodley SERP captured in docs/seo-research-woodley.md via the DataForSEO API on 21 September 2026"
+      ]
+    }
+  ],
+  "verification": {
+    "automatedTests": "65 browser and application tests plus 11 DNS contract tests passed",
+    "accessibility": "18 public routes plus custom 404 and true 410 passed axe",
+    "dependencyAudit": "0 vulnerabilities",
+    "secretReferences": "15 approved 1Password references across four templates resolved without printing their values",
+    "historySecretScan": "Gitleaks passed across the complete repository history",
+    "cloudflareMigrationContract": "passed",
+    "cloudflareSecurityHeaders": "passed",
+    "cloudflareLiveCrawl": "18 sitemap pages, 19 internal targets, 49 safe external link instances, 31 rendered images, 18 unique social cards, and the web manifest passed",
+    "previewIndexingContract": "passed",
+    "productionIndexingBuildContract": "18 Next.js and OpenNext pages passed robots, canonical, Open Graph, and pre-render checks locally",
+    "productionWorker": "2285e059-5ac0-44cf-b115-350eb13aee8d deployed with no targets",
+    "cloudflarePendingZone": "full free pending zone, 0 active records, exactly 11 untouched quick-scan candidates, and public NS1 delegation unchanged",
+    "cloudflareServiceContract": "both Workers have one version at 100 percent, exact expected bindings, correct workers.dev isolation, the Resend secret by name, and persistent 100 percent invocation logs",
+    "cloudflareImages": "AVIF confirmed",
+    "console": "0 errors and 0 warnings in normal live browser sessions; the empty-form validation test intentionally produced HTTP 400",
+    "dnsGuard": "verify:live-zone replaced verify:precutover-dns in the launch preflight on 21 September 2026. The pre-cutover staging tooling is historical: the zone went active on 3 August 2026, so it asserts a state that can no longer be true."
+  },
+  "pageQa": [
+    {
+      "path": "/",
+      "desktop": "pass",
+      "mobile": "pass"
+    },
+    {
+      "path": "/about",
+      "desktop": "pass",
+      "mobile": "pass"
+    },
+    {
+      "path": "/curriculum",
+      "desktop": "pass",
+      "mobile": "pass"
+    },
+    {
+      "path": "/curriculum/montessori",
+      "desktop": "pass",
+      "mobile": "pass"
+    },
+    {
+      "path": "/curriculum/stem",
+      "desktop": "pass",
+      "mobile": "pass"
+    },
+    {
+      "path": "/rooms/babies",
+      "desktop": "pass",
+      "mobile": "pass"
+    },
+    {
+      "path": "/rooms/toddlers",
+      "desktop": "pass",
+      "mobile": "pass"
+    },
+    {
+      "path": "/rooms/preschool",
+      "desktop": "pass",
+      "mobile": "pass"
+    },
+    {
+      "path": "/fees-funding",
+      "desktop": "pass",
+      "mobile": "pass"
+    },
+    {
+      "path": "/ofsted",
+      "desktop": "pass",
+      "mobile": "pass"
+    },
+    {
+      "path": "/food-nutrition",
+      "desktop": "pass",
+      "mobile": "pass"
+    },
+    {
+      "path": "/nursery-environment",
+      "desktop": "pass",
+      "mobile": "pass"
+    },
+    {
+      "path": "/send-inclusion",
+      "desktop": "pass",
+      "mobile": "pass"
+    },
+    {
+      "path": "/starting-nursery",
+      "desktop": "pass",
+      "mobile": "pass"
+    },
+    {
+      "path": "/contact",
+      "desktop": "pass",
+      "mobile": "pass"
+    },
+    {
+      "path": "/careers",
+      "desktop": "pass",
+      "mobile": "pass"
+    },
+    {
+      "path": "/privacy",
+      "desktop": "pass",
+      "mobile": "pass"
+    },
+    {
+      "path": "/cookies",
+      "desktop": "pass",
+      "mobile": "pass"
+    }
+  ],
+  "launchBlockers": [
+    {
+      "id": "client-approval",
+      "blocker": "The restructure is on staging and has not been deployed to production.",
+      "owner": "client",
+      "detail": "Ash reviews https://staging.littlegiantsnursery.org. On approval: npm run deploy, then npm run ads:sync-urls."
+    },
+    {
+      "id": "woodley-postcode",
+      "blocker": "The Woodley postcode has not been supplied.",
+      "owner": "client",
+      "detail": "postalCode and geo are deliberately absent from the Woodley ChildCare schema until it is confirmed. Needed for the Google Business Profile match."
+    },
+    {
+      "id": "woodley-phone",
+      "blocker": "The Woodley nursery has no phone line yet.",
+      "owner": "client",
+      "detail": "Set phoneDisplay and phoneHref together in src/content/locations.ts. Every tel: link and the schema telephone follow automatically."
+    },
+    {
+      "id": "woodley-eylog-branch",
+      "blocker": "The Woodley enquiry link points at the Uxbridge EyLog branch.",
+      "owner": "client",
+      "detail": "The token encodes branch_id 1. Woodley needs its own branch URL before launch."
+    },
+    {
+      "id": "woodley-business-profile",
+      "blocker": "No Google Business Profile exists for Woodley.",
+      "owner": "client",
+      "detail": "The nursery woodley SERP is led by a three-result local pack whose incumbents hold 3 to 12 reviews. This is the highest-value remaining action and we cannot request verification on the client's behalf."
+    },
+    {
+      "id": "ads-conversion-signal",
+      "blocker": "Neither campaign has a biddable website conversion signal.",
+      "owner": "agency",
+      "detail": "All four website conversion actions are REMOVED and GTM workspace 5 was never published. Must be fixed before either campaign is un-paused."
+    },
+    {
+      "id": "production-worker-bindings",
+      "blocker": "The deployed production Worker still carries the retired contact-form bindings.",
+      "owner": "agency",
+      "detail": "CONTACT_TO_EMAIL, CONTACT_FROM_EMAIL and CONTACT_RATE_LIMITER remain on little-giants-nursery, so verify:cloudflare-services fails until the next production deploy from this configuration clears them."
+    }
+  ]
+}

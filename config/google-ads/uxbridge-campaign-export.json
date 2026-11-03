@@ -1,0 +1,5050 @@
+{
+  "campaign": {
+    "campaign": {
+      "resourceName": "customers/7066157358/campaigns/24057812593",
+      "status": "ENABLED",
+      "advertisingChannelType": "SEARCH",
+      "networkSettings": {
+        "targetGoogleSearch": true,
+        "targetSearchNetwork": false,
+        "targetContentNetwork": false,
+        "targetPartnerSearchNetwork": false
+      },
+      "biddingStrategyType": "TARGET_SPEND",
+      "geoTargetTypeSetting": {
+        "positiveGeoTargetType": "PRESENCE",
+        "negativeGeoTargetType": "PRESENCE"
+      },
+      "name": "Local Nursery",
+      "id": "24057812593",
+      "optimizationScore": 0.6624185134498655
+    },
+    "campaignBudget": {
+      "resourceName": "customers/7066157358/campaignBudgets/15733506669",
+      "deliveryMethod": "STANDARD",
+      "id": "15733506669",
+      "name": "Local Nursery",
+      "amountMicros": "6000000",
+      "explicitlyShared": false
+    }
+  },
+  "geoTargets": [
+    {
+      "campaignCriterion": {
+        "resourceName": "customers/7066157358/campaignCriteria/24057812593~1000",
+        "type": "LANGUAGE",
+        "language": {
+          "languageConstant": "languageConstants/1000"
+        },
+        "criterionId": "1000",
+        "negative": false
+      }
+    },
+    {
+      "campaignCriterion": {
+        "resourceName": "customers/7066157358/campaignCriteria/24057812593~2492282440709",
+        "type": "PROXIMITY",
+        "proximity": {
+          "geoPoint": {
+            "longitudeInMicroDegrees": -479611,
+            "latitudeInMicroDegrees": 51548500
+          },
+          "radiusUnits": "MILES",
+          "address": {
+            "streetAddress": "Uxbridge"
+          },
+          "radius": 5
+        },
+        "criterionId": "2492282440709",
+        "negative": false
+      }
+    }
+  ],
+  "campaignNegatives": [
+    {
+      "campaignCriterion": {
+        "resourceName": "customers/7066157358/campaignCriteria/24057812593~10000370",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "garden"
+        },
+        "criterionId": "10000370"
+      }
+    },
+    {
+      "campaignCriterion": {
+        "resourceName": "customers/7066157358/campaignCriteria/24057812593~10002461",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "furniture"
+        },
+        "criterionId": "10002461"
+      }
+    },
+    {
+      "campaignCriterion": {
+        "resourceName": "customers/7066157358/campaignCriteria/24057812593~10005011",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "job"
+        },
+        "criterionId": "10005011"
+      }
+    },
+    {
+      "campaignCriterion": {
+        "resourceName": "customers/7066157358/campaignCriteria/24057812593~10005021",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "jobs"
+        },
+        "criterionId": "10005021"
+      }
+    },
+    {
+      "campaignCriterion": {
+        "resourceName": "customers/7066157358/campaignCriteria/24057812593~10031431",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "training"
+        },
+        "criterionId": "10031431"
+      }
+    },
+    {
+      "campaignCriterion": {
+        "resourceName": "customers/7066157358/campaignCriteria/24057812593~10047201",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "wallpaper"
+        },
+        "criterionId": "10047201"
+      }
+    },
+    {
+      "campaignCriterion": {
+        "resourceName": "customers/7066157358/campaignCriteria/24057812593~10083071",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "vacancy"
+        },
+        "criterionId": "10083071"
+      }
+    },
+    {
+      "campaignCriterion": {
+        "resourceName": "customers/7066157358/campaignCriteria/24057812593~10083081",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "vacancies"
+        },
+        "criterionId": "10083081"
+      }
+    },
+    {
+      "campaignCriterion": {
+        "resourceName": "customers/7066157358/campaignCriteria/24057812593~10099341",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "cv"
+        },
+        "criterionId": "10099341"
+      }
+    },
+    {
+      "campaignCriterion": {
+        "resourceName": "customers/7066157358/campaignCriteria/24057812593~10106761",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "plant"
+        },
+        "criterionId": "10106761"
+      }
+    },
+    {
+      "campaignCriterion": {
+        "resourceName": "customers/7066157358/campaignCriteria/24057812593~10169890",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "course"
+        },
+        "criterionId": "10169890"
+      }
+    },
+    {
+      "campaignCriterion": {
+        "resourceName": "customers/7066157358/campaignCriteria/24057812593~10226531",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "second hand"
+        },
+        "criterionId": "10226531"
+      }
+    },
+    {
+      "campaignCriterion": {
+        "resourceName": "customers/7066157358/campaignCriteria/24057812593~10289231",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "trees"
+        },
+        "criterionId": "10289231"
+      }
+    },
+    {
+      "campaignCriterion": {
+        "resourceName": "customers/7066157358/campaignCriteria/24057812593~10310711",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "courses"
+        },
+        "criterionId": "10310711"
+      }
+    },
+    {
+      "campaignCriterion": {
+        "resourceName": "customers/7066157358/campaignCriteria/24057812593~10317631",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "careers"
+        },
+        "criterionId": "10317631"
+      }
+    },
+    {
+      "campaignCriterion": {
+        "resourceName": "customers/7066157358/campaignCriteria/24057812593~10319341",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "salary"
+        },
+        "criterionId": "10319341"
+      }
+    },
+    {
+      "campaignCriterion": {
+        "resourceName": "customers/7066157358/campaignCriteria/24057812593~10348370",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "bedding"
+        },
+        "criterionId": "10348370"
+      }
+    },
+    {
+      "campaignCriterion": {
+        "resourceName": "customers/7066157358/campaignCriteria/24057812593~10439171",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "plants"
+        },
+        "criterionId": "10439171"
+      }
+    },
+    {
+      "campaignCriterion": {
+        "resourceName": "customers/7066157358/campaignCriteria/24057812593~10469301",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "for sale"
+        },
+        "criterionId": "10469301"
+      }
+    },
+    {
+      "campaignCriterion": {
+        "resourceName": "customers/7066157358/campaignCriteria/24057812593~10966731",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "rhymes"
+        },
+        "criterionId": "10966731"
+      }
+    },
+    {
+      "campaignCriterion": {
+        "resourceName": "customers/7066157358/campaignCriteria/24057812593~10966751",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "rhyme"
+        },
+        "criterionId": "10966751"
+      }
+    },
+    {
+      "campaignCriterion": {
+        "resourceName": "customers/7066157358/campaignCriteria/24057812593~10981850",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "decor"
+        },
+        "criterionId": "10981850"
+      }
+    },
+    {
+      "campaignCriterion": {
+        "resourceName": "customers/7066157358/campaignCriteria/24057812593~11899031",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "apprenticeship"
+        },
+        "criterionId": "11899031"
+      }
+    }
+  ],
+  "adGroups": [
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/199310064660",
+        "status": "ENABLED",
+        "type": "SEARCH_STANDARD",
+        "id": "199310064660",
+        "name": "Baby Nursery",
+        "cpcBidMicros": "10000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/200197759084",
+        "status": "PAUSED",
+        "type": "SEARCH_STANDARD",
+        "id": "200197759084",
+        "name": "Childcare Broad",
+        "cpcBidMicros": "10000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/195511732981",
+        "status": "ENABLED",
+        "type": "SEARCH_STANDARD",
+        "id": "195511732981",
+        "name": "Childcare Uxbridge",
+        "cpcBidMicros": "10000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/198880893975",
+        "status": "ENABLED",
+        "type": "SEARCH_STANDARD",
+        "id": "198880893975",
+        "name": "Day Nursery",
+        "cpcBidMicros": "10000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/201042676200",
+        "status": "ENABLED",
+        "type": "SEARCH_STANDARD",
+        "id": "201042676200",
+        "name": "Day Nursery Uxbridge",
+        "cpcBidMicros": "10000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/198090757586",
+        "status": "ENABLED",
+        "type": "SEARCH_STANDARD",
+        "id": "198090757586",
+        "name": "Funded Childcare",
+        "cpcBidMicros": "10000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/202413403590",
+        "status": "ENABLED",
+        "type": "SEARCH_STANDARD",
+        "id": "202413403590",
+        "name": "Montessori Nursery Uxbridge",
+        "cpcBidMicros": "10000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/201042961160",
+        "status": "ENABLED",
+        "type": "SEARCH_STANDARD",
+        "id": "201042961160",
+        "name": "Nursery Denham",
+        "cpcBidMicros": "10000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/198090773746",
+        "status": "ENABLED",
+        "type": "SEARCH_STANDARD",
+        "id": "198090773746",
+        "name": "Nursery Fees",
+        "cpcBidMicros": "10000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/197299459583",
+        "status": "ENABLED",
+        "type": "SEARCH_STANDARD",
+        "id": "197299459583",
+        "name": "Nursery Hillingdon",
+        "cpcBidMicros": "10000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/197913327105",
+        "status": "ENABLED",
+        "type": "SEARCH_STANDARD",
+        "id": "197913327105",
+        "name": "Nursery Ickenham",
+        "cpcBidMicros": "10000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/198769861379",
+        "status": "ENABLED",
+        "type": "SEARCH_STANDARD",
+        "id": "198769861379",
+        "name": "Nursery Near Me",
+        "cpcBidMicros": "10000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/199273250115",
+        "status": "ENABLED",
+        "type": "SEARCH_STANDARD",
+        "id": "199273250115",
+        "name": "Nursery Ruislip",
+        "cpcBidMicros": "10000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/204220284848",
+        "status": "ENABLED",
+        "type": "SEARCH_STANDARD",
+        "id": "204220284848",
+        "name": "Nursery School",
+        "cpcBidMicros": "10000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/202307295247",
+        "status": "ENABLED",
+        "type": "SEARCH_STANDARD",
+        "id": "202307295247",
+        "name": "Nursery Uxbridge",
+        "cpcBidMicros": "10000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/197913345785",
+        "status": "ENABLED",
+        "type": "SEARCH_STANDARD",
+        "id": "197913345785",
+        "name": "Nursery West Drayton",
+        "cpcBidMicros": "10000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/199479375758",
+        "status": "ENABLED",
+        "type": "SEARCH_STANDARD",
+        "id": "199479375758",
+        "name": "Preschool Near Me",
+        "cpcBidMicros": "10000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/197913261745",
+        "status": "ENABLED",
+        "type": "SEARCH_STANDARD",
+        "id": "197913261745",
+        "name": "Preschool Uxbridge",
+        "cpcBidMicros": "10000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/198090745106",
+        "status": "ENABLED",
+        "type": "SEARCH_STANDARD",
+        "id": "198090745106",
+        "name": "Private Nursery",
+        "cpcBidMicros": "10000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/201629410987",
+        "status": "ENABLED",
+        "type": "SEARCH_STANDARD",
+        "id": "201629410987",
+        "name": "Toddler Nursery",
+        "cpcBidMicros": "10000"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/199310064660",
+        "id": "199310064660",
+        "name": "Baby Nursery"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/199310064660~10378262",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "baby nursery"
+        },
+        "criterionId": "10378262",
+        "negative": false
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/200197759084",
+        "id": "200197759084",
+        "name": "Childcare Broad"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/200197759084~11293173",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "childcare"
+        },
+        "criterionId": "11293173",
+        "negative": false
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/199479375758",
+        "id": "199479375758",
+        "name": "Preschool Near Me"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/199479375758~12619151",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "preschool"
+        },
+        "criterionId": "12619151",
+        "negative": false
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/199310064660",
+        "id": "199310064660",
+        "name": "Baby Nursery"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/199310064660~28893080",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "baby nursery"
+        },
+        "criterionId": "28893080",
+        "negative": false
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/200197759084",
+        "id": "200197759084",
+        "name": "Childcare Broad"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/200197759084~29949901",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "childcare"
+        },
+        "criterionId": "29949901",
+        "negative": false
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/204220284848",
+        "id": "204220284848",
+        "name": "Nursery School"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/204220284848~39580071",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "nursery school"
+        },
+        "criterionId": "39580071",
+        "negative": false
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/204220284848",
+        "id": "204220284848",
+        "name": "Nursery School"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/204220284848~95387644",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "nursery school"
+        },
+        "criterionId": "95387644",
+        "negative": false
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/198880893975",
+        "id": "198880893975",
+        "name": "Day Nursery"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/198880893975~318521630",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "day nursery"
+        },
+        "criterionId": "318521630",
+        "negative": false
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/198090745106",
+        "id": "198090745106",
+        "name": "Private Nursery"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/198090745106~877466856",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "private nursery"
+        },
+        "criterionId": "877466856",
+        "negative": false
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/198769861379",
+        "id": "198769861379",
+        "name": "Nursery Near Me"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/198769861379~15701471324",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "nurseries near me"
+        },
+        "criterionId": "15701471324",
+        "negative": false
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/199479375758",
+        "id": "199479375758",
+        "name": "Preschool Near Me"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/199479375758~26559868570",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "preschool near me"
+        },
+        "criterionId": "26559868570",
+        "negative": false
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/198769861379",
+        "id": "198769861379",
+        "name": "Nursery Near Me"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/198769861379~26659235093",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "nursery near me"
+        },
+        "criterionId": "26659235093",
+        "negative": false
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/199479375758",
+        "id": "199479375758",
+        "name": "Preschool Near Me"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/199479375758~27962622682",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "preschool near me"
+        },
+        "criterionId": "27962622682",
+        "negative": false
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/204220284848",
+        "id": "204220284848",
+        "name": "Nursery School"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/204220284848~53455794964",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "nursery school near me"
+        },
+        "criterionId": "53455794964",
+        "negative": false
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/200197759084",
+        "id": "200197759084",
+        "name": "Childcare Broad"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/200197759084~53581008495",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "childcare near me"
+        },
+        "criterionId": "53581008495",
+        "negative": false
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/198769861379",
+        "id": "198769861379",
+        "name": "Nursery Near Me"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/198769861379~84613555245",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "day nursery near me"
+        },
+        "criterionId": "84613555245",
+        "negative": false
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/198090745106",
+        "id": "198090745106",
+        "name": "Private Nursery"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/198090745106~158166203043",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "private nursery near me"
+        },
+        "criterionId": "158166203043",
+        "negative": false
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/198769861379",
+        "id": "198769861379",
+        "name": "Nursery Near Me"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/198769861379~295314252902",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "nursery near me"
+        },
+        "criterionId": "295314252902",
+        "negative": false
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/198090773746",
+        "id": "198090773746",
+        "name": "Nursery Fees"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/198090773746~296062681110",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "nursery fees"
+        },
+        "criterionId": "296062681110",
+        "negative": false
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/201629410987",
+        "id": "201629410987",
+        "name": "Toddler Nursery"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/201629410987~296865110811",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "toddler nursery"
+        },
+        "criterionId": "296865110811",
+        "negative": false
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/201629410987",
+        "id": "201629410987",
+        "name": "Toddler Nursery"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/201629410987~299574759048",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "toddler nursery"
+        },
+        "criterionId": "299574759048",
+        "negative": false
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/198880893975",
+        "id": "198880893975",
+        "name": "Day Nursery"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/198880893975~299834876092",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "day nursery"
+        },
+        "criterionId": "299834876092",
+        "negative": false
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/199273250115",
+        "id": "199273250115",
+        "name": "Nursery Ruislip"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/199273250115~318674659840",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "nursery ruislip"
+        },
+        "criterionId": "318674659840",
+        "negative": false
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/198090757586",
+        "id": "198090757586",
+        "name": "Funded Childcare"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/198090757586~319009628309",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "15 hours free childcare"
+        },
+        "criterionId": "319009628309",
+        "negative": false
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/197299459583",
+        "id": "197299459583",
+        "name": "Nursery Hillingdon"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/197299459583~321014746235",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "nursery hillingdon"
+        },
+        "criterionId": "321014746235",
+        "negative": false
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/198090757586",
+        "id": "198090757586",
+        "name": "Funded Childcare"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/198090757586~323786623416",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "30 hours free childcare"
+        },
+        "criterionId": "323786623416",
+        "negative": false
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/198090773746",
+        "id": "198090773746",
+        "name": "Nursery Fees"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/198090773746~325577311402",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "nursery fees"
+        },
+        "criterionId": "325577311402",
+        "negative": false
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/198090757586",
+        "id": "198090757586",
+        "name": "Funded Childcare"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/198090757586~327793892634",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "30 hours free childcare"
+        },
+        "criterionId": "327793892634",
+        "negative": false
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/195511732981",
+        "id": "195511732981",
+        "name": "Childcare Uxbridge"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/195511732981~337693690013",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "childcare uxbridge"
+        },
+        "criterionId": "337693690013",
+        "negative": false
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/199273250115",
+        "id": "199273250115",
+        "name": "Nursery Ruislip"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/199273250115~353496840710",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "nursery ruislip"
+        },
+        "criterionId": "353496840710",
+        "negative": false
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/200197759084",
+        "id": "200197759084",
+        "name": "Childcare Broad"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/200197759084~357347487767",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "childcare near me"
+        },
+        "criterionId": "357347487767",
+        "negative": false
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/199310064660",
+        "id": "199310064660",
+        "name": "Baby Nursery"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/199310064660~370992162900",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "baby nursery near me"
+        },
+        "criterionId": "370992162900",
+        "negative": false
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/197299459583",
+        "id": "197299459583",
+        "name": "Nursery Hillingdon"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/197299459583~382914900477",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "nursery hillingdon"
+        },
+        "criterionId": "382914900477",
+        "negative": false
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/198090773746",
+        "id": "198090773746",
+        "name": "Nursery Fees"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/198090773746~413483060301",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "nursery cost"
+        },
+        "criterionId": "413483060301",
+        "negative": false
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/198090757586",
+        "id": "198090757586",
+        "name": "Funded Childcare"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/198090757586~442508092759",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "free childcare near me"
+        },
+        "criterionId": "442508092759",
+        "negative": false
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/202307295247",
+        "id": "202307295247",
+        "name": "Nursery Uxbridge"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/202307295247~445597519374",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "nursery uxbridge"
+        },
+        "criterionId": "445597519374",
+        "negative": false
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/197913261745",
+        "id": "197913261745",
+        "name": "Preschool Uxbridge"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/197913261745~496124101091",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "preschool uxbridge"
+        },
+        "criterionId": "496124101091",
+        "negative": false
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/202307295247",
+        "id": "202307295247",
+        "name": "Nursery Uxbridge"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/202307295247~497877397628",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "nursery uxbridge"
+        },
+        "criterionId": "497877397628",
+        "negative": false
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/197913261745",
+        "id": "197913261745",
+        "name": "Preschool Uxbridge"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/197913261745~505247946194",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "preschool uxbridge"
+        },
+        "criterionId": "505247946194",
+        "negative": false
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/202413403590",
+        "id": "202413403590",
+        "name": "Montessori Nursery Uxbridge"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/202413403590~575670016025",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "montessori nursery uxbridge"
+        },
+        "criterionId": "575670016025",
+        "negative": false
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/201042961160",
+        "id": "201042961160",
+        "name": "Nursery Denham"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/201042961160~604094752543",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "nursery denham"
+        },
+        "criterionId": "604094752543",
+        "negative": false
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/195511732981",
+        "id": "195511732981",
+        "name": "Childcare Uxbridge"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/195511732981~759425107901",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "childcare uxbridge"
+        },
+        "criterionId": "759425107901",
+        "negative": false
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/197913327105",
+        "id": "197913327105",
+        "name": "Nursery Ickenham"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/197913327105~786955814854",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "nursery ickenham"
+        },
+        "criterionId": "786955814854",
+        "negative": false
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/201042676200",
+        "id": "201042676200",
+        "name": "Day Nursery Uxbridge"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/201042676200~790220678297",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "day nursery uxbridge"
+        },
+        "criterionId": "790220678297",
+        "negative": false
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/197913327105",
+        "id": "197913327105",
+        "name": "Nursery Ickenham"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/197913327105~825556767743",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "nursery ickenham"
+        },
+        "criterionId": "825556767743",
+        "negative": false
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/197913345785",
+        "id": "197913345785",
+        "name": "Nursery West Drayton"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/197913345785~850725681821",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "nursery west drayton"
+        },
+        "criterionId": "850725681821",
+        "negative": false
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/201042676200",
+        "id": "201042676200",
+        "name": "Day Nursery Uxbridge"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/201042676200~873357977407",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "day nursery uxbridge"
+        },
+        "criterionId": "873357977407",
+        "negative": false
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/202413403590",
+        "id": "202413403590",
+        "name": "Montessori Nursery Uxbridge"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/202413403590~1972049783452",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "montessori nursery uxbridge"
+        },
+        "criterionId": "1972049783452",
+        "negative": false
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/197913345785",
+        "id": "197913345785",
+        "name": "Nursery West Drayton"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/197913345785~2203201421030",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "nursery west drayton"
+        },
+        "criterionId": "2203201421030",
+        "negative": false
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/201042961160",
+        "id": "201042961160",
+        "name": "Nursery Denham"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/7066157358/adGroupCriteria/201042961160~2495220543304",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "nursery denham"
+        },
+        "criterionId": "2495220543304",
+        "negative": false
+      }
+    }
+  ],
+  "ads": [
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/195511732981",
+        "id": "195511732981",
+        "name": "Childcare Uxbridge"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/7066157358/adGroupAds/195511732981~817761453577",
+        "status": "ENABLED",
+        "ad": {
+          "type": "RESPONSIVE_SEARCH_AD",
+          "responsiveSearchAd": {
+            "headlines": [
+              {
+                "text": "Childcare in Uxbridge",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Little Giants Nursery",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Book a Nursery Tour Today",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Rated By Happy Parents",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Open 51 Weeks, 7:30am to 6pm",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Babies, Toddlers & Preschool",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "STEM & Montessori Inspired",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Curiosity-Led Early Years",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              }
+            ],
+            "descriptions": [
+              {
+                "text": "A warm, curiosity-led nursery in the Old School House on Hillingdon Road, Uxbridge.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Dedicated baby, toddler and preschool rooms, with learning planned around each child.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Book a tour to meet our educators, see the rooms and talk through your child's routines.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Arrange a visit today. Off-street parking at the rear, minutes from Uxbridge town centre.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              }
+            ],
+            "path1": "nursery",
+            "path2": "uxbridge"
+          },
+          "resourceName": "customers/7066157358/ads/817761453577",
+          "id": "817761453577",
+          "finalUrls": [
+            "https://www.littlegiantsnursery.org"
+          ]
+        },
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/197299459583",
+        "id": "197299459583",
+        "name": "Nursery Hillingdon"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/7066157358/adGroupAds/197299459583~817721081742",
+        "status": "ENABLED",
+        "ad": {
+          "type": "RESPONSIVE_SEARCH_AD",
+          "responsiveSearchAd": {
+            "headlines": [
+              {
+                "text": "Nursery in Hillingdon",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Little Giants Nursery",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Book a Nursery Tour Today",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "The Old School House Setting",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Open 51 Weeks, 7:30am to 6pm",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Babies, Toddlers & Preschool",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "STEM & Montessori Inspired",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Curiosity-Led Early Years",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              }
+            ],
+            "descriptions": [
+              {
+                "text": "A warm, curiosity-led nursery in the Old School House on Hillingdon Road, Uxbridge.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Dedicated baby, toddler and preschool rooms, with learning planned around each child.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Book a tour to meet our educators, see the rooms and talk through your child's routines.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Arrange a visit today. Off-street parking at the rear, minutes from Uxbridge town centre.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              }
+            ],
+            "path1": "nursery",
+            "path2": "hillingdon"
+          },
+          "resourceName": "customers/7066157358/ads/817721081742",
+          "id": "817721081742",
+          "finalUrls": [
+            "https://www.littlegiantsnursery.org"
+          ]
+        },
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/197913261745",
+        "id": "197913261745",
+        "name": "Preschool Uxbridge"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/7066157358/adGroupAds/197913261745~817830306461",
+        "status": "ENABLED",
+        "ad": {
+          "type": "RESPONSIVE_SEARCH_AD",
+          "responsiveSearchAd": {
+            "headlines": [
+              {
+                "text": "Preschool in Uxbridge",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Little Giants Nursery",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Book a Nursery Tour Today",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "The Old School House Setting",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Open 51 Weeks, 7:30am to 6pm",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Babies, Toddlers & Preschool",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "STEM & Montessori Inspired",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Curiosity-Led Early Years",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              }
+            ],
+            "descriptions": [
+              {
+                "text": "A warm, curiosity-led nursery in the Old School House on Hillingdon Road, Uxbridge.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Dedicated baby, toddler and preschool rooms, with learning planned around each child.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Book a tour to meet our educators, see the rooms and talk through your child's routines.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Arrange a visit today. Off-street parking at the rear, minutes from Uxbridge town centre.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              }
+            ],
+            "path1": "nursery",
+            "path2": "preschool"
+          },
+          "resourceName": "customers/7066157358/ads/817830306461",
+          "id": "817830306461",
+          "finalUrls": [
+            "https://www.littlegiantsnursery.org/rooms/preschool"
+          ]
+        },
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/197913327105",
+        "id": "197913327105",
+        "name": "Nursery Ickenham"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/7066157358/adGroupAds/197913327105~817761687814",
+        "status": "ENABLED",
+        "ad": {
+          "type": "RESPONSIVE_SEARCH_AD",
+          "responsiveSearchAd": {
+            "headlines": [
+              {
+                "text": "Nursery Near Ickenham",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Little Giants Nursery",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Book a Nursery Tour Today",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Where Little Minds Grow",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Open 51 Weeks, 7:30am to 6pm",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Babies, Toddlers & Preschool",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "STEM & Montessori Inspired",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Curiosity-Led Early Years",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              }
+            ],
+            "descriptions": [
+              {
+                "text": "A warm, curiosity-led nursery in the Old School House on Hillingdon Road, Uxbridge.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Dedicated baby, toddler and preschool rooms, with learning planned around each child.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Book a tour to meet our educators, see the rooms and talk through your child's routines.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Arrange a visit today. Off-street parking at the rear, minutes from Uxbridge town centre.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              }
+            ],
+            "path1": "nursery",
+            "path2": "ickenham"
+          },
+          "resourceName": "customers/7066157358/ads/817761687814",
+          "id": "817761687814",
+          "finalUrls": [
+            "https://www.littlegiantsnursery.org"
+          ]
+        },
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/197913345785",
+        "id": "197913345785",
+        "name": "Nursery West Drayton"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/7066157358/adGroupAds/197913345785~817761785956",
+        "status": "ENABLED",
+        "ad": {
+          "type": "RESPONSIVE_SEARCH_AD",
+          "responsiveSearchAd": {
+            "headlines": [
+              {
+                "text": "Nursery Near West Drayton",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Little Giants Nursery",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Book a Nursery Tour Today",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Rated By Happy Parents",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Open 51 Weeks, 7:30am to 6pm",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Babies, Toddlers & Preschool",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "STEM & Montessori Inspired",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Curiosity-Led Early Years",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              }
+            ],
+            "descriptions": [
+              {
+                "text": "A warm, curiosity-led nursery in the Old School House on Hillingdon Road, Uxbridge.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Dedicated baby, toddler and preschool rooms, with learning planned around each child.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Book a tour to meet our educators, see the rooms and talk through your child's routines.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Arrange a visit today. Off-street parking at the rear, minutes from Uxbridge town centre.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              }
+            ],
+            "path1": "nursery",
+            "path2": "west-drayton"
+          },
+          "resourceName": "customers/7066157358/ads/817761785956",
+          "id": "817761785956",
+          "finalUrls": [
+            "https://www.littlegiantsnursery.org"
+          ]
+        },
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/198090745106",
+        "id": "198090745106",
+        "name": "Private Nursery"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/7066157358/adGroupAds/198090745106~817726974906",
+        "status": "ENABLED",
+        "ad": {
+          "type": "RESPONSIVE_SEARCH_AD",
+          "responsiveSearchAd": {
+            "headlines": [
+              {
+                "text": "Private Nursery in Uxbridge",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Problem-Solving Skills",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Building Confidence Daily",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Learn Through Play",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Nutritious Meals, Happy Minds",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Nurturing Care & Education",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Two Gardens, Endless Discovery",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Find Out More",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Encouraging Exploration",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Developing Critical Thinking",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Nursery With A Friendly Team",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Curious Minds Thrive Here",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Where Little Minds Blossom",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Ignite Your Child's Curiosity",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Early Learning, Lasting Impact",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              }
+            ],
+            "descriptions": [
+              {
+                "text": "Discover Little Giants Nursery, a STEM & Montessori nursery in Uxbridge.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "We provide a nurturing and stimulating environment for children aged 3 months to 5 years",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Where young minds grow with curiosity, confidence, and care.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "We believe in fostering a love of learning that will last a lifetime.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              }
+            ],
+            "path1": "nursery",
+            "path2": "private"
+          },
+          "resourceName": "customers/7066157358/ads/817726974906",
+          "id": "817726974906",
+          "finalUrls": [
+            "https://www.littlegiantsnursery.org"
+          ]
+        },
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/198090757586",
+        "id": "198090757586",
+        "name": "Funded Childcare"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/7066157358/adGroupAds/198090757586~817836405068",
+        "status": "ENABLED",
+        "ad": {
+          "type": "RESPONSIVE_SEARCH_AD",
+          "responsiveSearchAd": {
+            "headlines": [
+              {
+                "text": "Funded Childcare in Uxbridge",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Problem-Solving Skills",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Building Confidence Daily",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Learn Through Play",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Nutritious Meals, Happy Minds",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Nurturing Care & Education",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Two Gardens, Endless Discovery",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Find Out More",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Encouraging Exploration",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Developing Critical Thinking",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Nursery With A Friendly Team",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Curious Minds Thrive Here",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Where Little Minds Blossom",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Ignite Your Child's Curiosity",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Early Learning, Lasting Impact",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              }
+            ],
+            "descriptions": [
+              {
+                "text": "Discover Little Giants Nursery, a STEM & Montessori nursery in Uxbridge.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "We provide a nurturing and stimulating environment for children aged 3 months to 5 years",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Where young minds grow with curiosity, confidence, and care.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "We believe in fostering a love of learning that will last a lifetime.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              }
+            ],
+            "path1": "nursery",
+            "path2": "funding"
+          },
+          "resourceName": "customers/7066157358/ads/817836405068",
+          "id": "817836405068",
+          "finalUrls": [
+            "https://www.littlegiantsnursery.org/fees-funding"
+          ]
+        },
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/198090773746",
+        "id": "198090773746",
+        "name": "Nursery Fees"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/7066157358/adGroupAds/198090773746~817768124293",
+        "status": "ENABLED",
+        "ad": {
+          "type": "RESPONSIVE_SEARCH_AD",
+          "responsiveSearchAd": {
+            "headlines": [
+              {
+                "text": "Nursery Fees in Uxbridge",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Problem-Solving Skills",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Building Confidence Daily",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Learn Through Play",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Nutritious Meals, Happy Minds",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Nurturing Care & Education",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Two Gardens, Endless Discovery",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Find Out More",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Encouraging Exploration",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Developing Critical Thinking",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Nursery With A Friendly Team",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Curious Minds Thrive Here",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Where Little Minds Blossom",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Ignite Your Child's Curiosity",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Early Learning, Lasting Impact",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              }
+            ],
+            "descriptions": [
+              {
+                "text": "Discover Little Giants Nursery, a STEM & Montessori nursery in Uxbridge.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "We provide a nurturing and stimulating environment for children aged 3 months to 5 years",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Where young minds grow with curiosity, confidence, and care.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "We believe in fostering a love of learning that will last a lifetime.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              }
+            ],
+            "path1": "nursery",
+            "path2": "fees"
+          },
+          "resourceName": "customers/7066157358/ads/817768124293",
+          "id": "817768124293",
+          "finalUrls": [
+            "https://www.littlegiantsnursery.org/fees-funding"
+          ]
+        },
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/198769861379",
+        "id": "198769861379",
+        "name": "Nursery Near Me"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/7066157358/adGroupAds/198769861379~817767753505",
+        "status": "ENABLED",
+        "ad": {
+          "type": "RESPONSIVE_SEARCH_AD",
+          "responsiveSearchAd": {
+            "headlines": [
+              {
+                "text": "Your Local Nursery in Uxbridge",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Top Rated Nursery School",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Private Nursery",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Safe, Secure, & Happy Learners",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "High-Quality Care",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Give Your Child the Edge",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Find Out More",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Curious Minds Thrive Here",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Nurturing & Stimulating",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Explore & Discover",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Expert Teaching",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Pre-School in Uxbridge",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Award-Winning Nursery",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Early Learning, Lasting Impact",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Where Little Minds Blossom",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              }
+            ],
+            "descriptions": [
+              {
+                "text": "Discover Little Giants Nursery, a STEM & Montessori nursery in Uxbridge.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Little Giants Nursery is a top rated preschool near you.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Little Giants Nursery is a private nursery near you.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "We believe in fostering a love of learning that will last a lifetime.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              }
+            ],
+            "path1": "nursery",
+            "path2": "uxbridge"
+          },
+          "resourceName": "customers/7066157358/ads/817767753505",
+          "id": "817767753505",
+          "finalUrls": [
+            "https://www.littlegiantsnursery.org"
+          ]
+        },
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/198880893975",
+        "id": "198880893975",
+        "name": "Day Nursery"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/7066157358/adGroupAds/198880893975~817726760622",
+        "status": "ENABLED",
+        "ad": {
+          "type": "RESPONSIVE_SEARCH_AD",
+          "responsiveSearchAd": {
+            "headlines": [
+              {
+                "text": "Day Nursery in Uxbridge",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Little Giants Nursery",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Book a Nursery Tour Today",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Day Nursery in Hillingdon",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Open 51 Weeks, 7:30am to 6pm",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Babies, Toddlers & Preschool",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "STEM & Montessori Inspired",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Curiosity-Led Early Years",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              }
+            ],
+            "descriptions": [
+              {
+                "text": "A warm, curiosity-led nursery in the Old School House on Hillingdon Road, Uxbridge.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Dedicated baby, toddler and preschool rooms, with learning planned around each child.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Book a tour to meet our educators, see the rooms and talk through your child's routines.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Arrange a visit today. Off-street parking at the rear, minutes from Uxbridge town centre.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              }
+            ],
+            "path1": "nursery",
+            "path2": "uxbridge"
+          },
+          "resourceName": "customers/7066157358/ads/817726760622",
+          "id": "817726760622",
+          "finalUrls": [
+            "https://www.littlegiantsnursery.org"
+          ]
+        },
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/199273250115",
+        "id": "199273250115",
+        "name": "Nursery Ruislip"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/7066157358/adGroupAds/199273250115~817761841120",
+        "status": "ENABLED",
+        "ad": {
+          "type": "RESPONSIVE_SEARCH_AD",
+          "responsiveSearchAd": {
+            "headlines": [
+              {
+                "text": "Nursery Near Ruislip",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Little Giants Nursery",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Book a Nursery Tour Today",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Rated By Happy Parents",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Open 51 Weeks, 7:30am to 6pm",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Babies, Toddlers & Preschool",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "STEM & Montessori Inspired",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Curiosity-Led Early Years",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              }
+            ],
+            "descriptions": [
+              {
+                "text": "A warm, curiosity-led nursery in the Old School House on Hillingdon Road, Uxbridge.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Dedicated baby, toddler and preschool rooms, with learning planned around each child.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Book a tour to meet our educators, see the rooms and talk through your child's routines.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Arrange a visit today. Off-street parking at the rear, minutes from Uxbridge town centre.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              }
+            ],
+            "path1": "nursery",
+            "path2": "ruislip"
+          },
+          "resourceName": "customers/7066157358/ads/817761841120",
+          "id": "817761841120",
+          "finalUrls": [
+            "https://www.littlegiantsnursery.org"
+          ]
+        },
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/199310064660",
+        "id": "199310064660",
+        "name": "Baby Nursery"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/7066157358/adGroupAds/199310064660~817767958063",
+        "status": "ENABLED",
+        "ad": {
+          "type": "RESPONSIVE_SEARCH_AD",
+          "responsiveSearchAd": {
+            "headlines": [
+              {
+                "text": "Warm Baby Nursery in Uxbridge",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Problem-Solving Skills",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Building Confidence Daily",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Learn Through Play",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Nutritious Meals, Happy Minds",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Nurturing Care & Education",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Two Gardens, Endless Discovery",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Find Out More",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Encouraging Exploration",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Developing Critical Thinking",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Nursery With A Friendly Team",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Curious Minds Thrive Here",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Where Little Minds Blossom",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Ignite Your Child's Curiosity",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Early Learning, Lasting Impact",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              }
+            ],
+            "descriptions": [
+              {
+                "text": "Discover Little Giants Nursery, a STEM & Montessori nursery in Uxbridge.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "We provide a nurturing and stimulating environment for children aged 3 months to 5 years",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Where young minds grow with curiosity, confidence, and care.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "We believe in fostering a love of learning that will last a lifetime.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              }
+            ],
+            "path1": "nursery",
+            "path2": "baby-room"
+          },
+          "resourceName": "customers/7066157358/ads/817767958063",
+          "id": "817767958063",
+          "finalUrls": [
+            "https://www.littlegiantsnursery.org/rooms/babies"
+          ]
+        },
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/199479375758",
+        "id": "199479375758",
+        "name": "Preschool Near Me"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/7066157358/adGroupAds/199479375758~817836193646",
+        "status": "ENABLED",
+        "ad": {
+          "type": "RESPONSIVE_SEARCH_AD",
+          "responsiveSearchAd": {
+            "headlines": [
+              {
+                "text": "Preschool in Uxbridge",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Problem-Solving Skills",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Building Confidence Daily",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Learn Through Play",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Nutritious Meals, Happy Minds",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Nurturing Care & Education",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Two Gardens, Endless Discovery",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Find Out More",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Encouraging Exploration",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Developing Critical Thinking",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Nursery With A Friendly Team",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Curious Minds Thrive Here",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Where Little Minds Blossom",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Ignite Your Child's Curiosity",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Early Learning, Lasting Impact",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              }
+            ],
+            "descriptions": [
+              {
+                "text": "Discover Little Giants Nursery, a STEM & Montessori nursery in Uxbridge.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "We provide a nurturing and stimulating environment for children aged 3 months to 5 years",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Where young minds grow with curiosity, confidence, and care.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "We believe in fostering a love of learning that will last a lifetime.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              }
+            ],
+            "path1": "nursery",
+            "path2": "preschool"
+          },
+          "resourceName": "customers/7066157358/ads/817836193646",
+          "id": "817836193646",
+          "finalUrls": [
+            "https://www.littlegiantsnursery.org/rooms/preschool"
+          ]
+        },
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/200197759084",
+        "id": "200197759084",
+        "name": "Childcare Broad"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/7066157358/adGroupAds/200197759084~817726588263",
+        "status": "ENABLED",
+        "ad": {
+          "type": "RESPONSIVE_SEARCH_AD",
+          "responsiveSearchAd": {
+            "headlines": [
+              {
+                "text": "Childcare in Uxbridge",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Little Giants Nursery",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Book a Nursery Tour Today",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "STEM Learning Nursery",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Open 51 Weeks, 7:30am to 6pm",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Babies, Toddlers & Preschool",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "STEM & Montessori Inspired",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Curiosity-Led Early Years",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              }
+            ],
+            "descriptions": [
+              {
+                "text": "A warm, curiosity-led nursery in the Old School House on Hillingdon Road, Uxbridge.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Dedicated baby, toddler and preschool rooms, with learning planned around each child.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Book a tour to meet our educators, see the rooms and talk through your child's routines.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Arrange a visit today. Off-street parking at the rear, minutes from Uxbridge town centre.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              }
+            ],
+            "path1": "nursery",
+            "path2": "childcare"
+          },
+          "resourceName": "customers/7066157358/ads/817726588263",
+          "id": "817726588263",
+          "finalUrls": [
+            "https://www.littlegiantsnursery.org"
+          ]
+        },
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/201042676200",
+        "id": "201042676200",
+        "name": "Day Nursery Uxbridge"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/7066157358/adGroupAds/201042676200~817761401191",
+        "status": "ENABLED",
+        "ad": {
+          "type": "RESPONSIVE_SEARCH_AD",
+          "responsiveSearchAd": {
+            "headlines": [
+              {
+                "text": "Day Nursery in Uxbridge",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Little Giants Nursery",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Book a Nursery Tour Today",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "STEM Learning Nursery",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Open 51 Weeks, 7:30am to 6pm",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Babies, Toddlers & Preschool",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "STEM & Montessori Inspired",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Curiosity-Led Early Years",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              }
+            ],
+            "descriptions": [
+              {
+                "text": "A warm, curiosity-led nursery in the Old School House on Hillingdon Road, Uxbridge.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Dedicated baby, toddler and preschool rooms, with learning planned around each child.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Book a tour to meet our educators, see the rooms and talk through your child's routines.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Arrange a visit today. Off-street parking at the rear, minutes from Uxbridge town centre.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              }
+            ],
+            "path1": "nursery",
+            "path2": "uxbridge"
+          },
+          "resourceName": "customers/7066157358/ads/817761401191",
+          "id": "817761401191",
+          "finalUrls": [
+            "https://www.littlegiantsnursery.org"
+          ]
+        },
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/201042961160",
+        "id": "201042961160",
+        "name": "Nursery Denham"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/7066157358/adGroupAds/201042961160~817830579575",
+        "status": "ENABLED",
+        "ad": {
+          "type": "RESPONSIVE_SEARCH_AD",
+          "responsiveSearchAd": {
+            "headlines": [
+              {
+                "text": "Nursery Near Denham",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Little Giants Nursery",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Book a Nursery Tour Today",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "The Old School House Setting",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Open 51 Weeks, 7:30am to 6pm",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Babies, Toddlers & Preschool",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "STEM & Montessori Inspired",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Curiosity-Led Early Years",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              }
+            ],
+            "descriptions": [
+              {
+                "text": "A warm, curiosity-led nursery in the Old School House on Hillingdon Road, Uxbridge.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Dedicated baby, toddler and preschool rooms, with learning planned around each child.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Book a tour to meet our educators, see the rooms and talk through your child's routines.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Arrange a visit today. Off-street parking at the rear, minutes from Uxbridge town centre.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              }
+            ],
+            "path1": "nursery",
+            "path2": "denham"
+          },
+          "resourceName": "customers/7066157358/ads/817830579575",
+          "id": "817830579575",
+          "finalUrls": [
+            "https://www.littlegiantsnursery.org"
+          ]
+        },
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/201629410987",
+        "id": "201629410987",
+        "name": "Toddler Nursery"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/7066157358/adGroupAds/201629410987~817836335024",
+        "status": "ENABLED",
+        "ad": {
+          "type": "RESPONSIVE_SEARCH_AD",
+          "responsiveSearchAd": {
+            "headlines": [
+              {
+                "text": "Toddler Nursery in Uxbridge",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Problem-Solving Skills",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Building Confidence Daily",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Learn Through Play",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Nutritious Meals, Happy Minds",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Nurturing Care & Education",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Two Gardens, Endless Discovery",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Find Out More",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Encouraging Exploration",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Developing Critical Thinking",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Nursery With A Friendly Team",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Curious Minds Thrive Here",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Where Little Minds Blossom",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Ignite Your Child's Curiosity",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Early Learning, Lasting Impact",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              }
+            ],
+            "descriptions": [
+              {
+                "text": "Discover Little Giants Nursery, a STEM & Montessori nursery in Uxbridge.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "We provide a nurturing and stimulating environment for children aged 3 months to 5 years",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Where young minds grow with curiosity, confidence, and care.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "We believe in fostering a love of learning that will last a lifetime.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              }
+            ],
+            "path1": "nursery",
+            "path2": "toddlers"
+          },
+          "resourceName": "customers/7066157358/ads/817836335024",
+          "id": "817836335024",
+          "finalUrls": [
+            "https://www.littlegiantsnursery.org/rooms/toddlers"
+          ]
+        },
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/202307295247",
+        "id": "202307295247",
+        "name": "Nursery Uxbridge"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/7066157358/adGroupAds/202307295247~817720721187",
+        "status": "ENABLED",
+        "ad": {
+          "type": "RESPONSIVE_SEARCH_AD",
+          "responsiveSearchAd": {
+            "headlines": [
+              {
+                "text": "Nursery in Uxbridge",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Little Giants Nursery",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Book a Nursery Tour Today",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "The Old School House Setting",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Open 51 Weeks, 7:30am to 6pm",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Babies, Toddlers & Preschool",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "STEM & Montessori Inspired",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Curiosity-Led Early Years",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              }
+            ],
+            "descriptions": [
+              {
+                "text": "A warm, curiosity-led nursery in the Old School House on Hillingdon Road, Uxbridge.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Dedicated baby, toddler and preschool rooms, with learning planned around each child.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Book a tour to meet our educators, see the rooms and talk through your child's routines.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Arrange a visit today. Off-street parking at the rear, minutes from Uxbridge town centre.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              }
+            ],
+            "path1": "nursery",
+            "path2": "uxbridge"
+          },
+          "resourceName": "customers/7066157358/ads/817720721187",
+          "id": "817720721187",
+          "finalUrls": [
+            "https://www.littlegiantsnursery.org"
+          ]
+        },
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/202413403590",
+        "id": "202413403590",
+        "name": "Montessori Nursery Uxbridge"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/7066157358/adGroupAds/202413403590~817830353750",
+        "status": "ENABLED",
+        "ad": {
+          "type": "RESPONSIVE_SEARCH_AD",
+          "responsiveSearchAd": {
+            "headlines": [
+              {
+                "text": "Montessori Nursery Uxbridge",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Little Giants Nursery",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Book a Nursery Tour Today",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "The Old School House Setting",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Open 51 Weeks, 7:30am to 6pm",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Babies, Toddlers & Preschool",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "STEM & Montessori Inspired",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Curiosity-Led Early Years",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              }
+            ],
+            "descriptions": [
+              {
+                "text": "A warm, curiosity-led nursery in the Old School House on Hillingdon Road, Uxbridge.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Dedicated baby, toddler and preschool rooms, with learning planned around each child.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Book a tour to meet our educators, see the rooms and talk through your child's routines.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Arrange a visit today. Off-street parking at the rear, minutes from Uxbridge town centre.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              }
+            ],
+            "path1": "nursery",
+            "path2": "montessori"
+          },
+          "resourceName": "customers/7066157358/ads/817830353750",
+          "id": "817830353750",
+          "finalUrls": [
+            "https://www.littlegiantsnursery.org/curriculum/montessori"
+          ]
+        },
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/7066157358/adGroups/204220284848",
+        "id": "204220284848",
+        "name": "Nursery School"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/7066157358/adGroupAds/204220284848~817836358559",
+        "status": "ENABLED",
+        "ad": {
+          "type": "RESPONSIVE_SEARCH_AD",
+          "responsiveSearchAd": {
+            "headlines": [
+              {
+                "text": "Nursery School in Uxbridge",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Problem-Solving Skills",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Building Confidence Daily",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Learn Through Play",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Nutritious Meals, Happy Minds",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Nurturing Care & Education",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Two Gardens, Endless Discovery",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Find Out More",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Encouraging Exploration",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Developing Critical Thinking",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Nursery With A Friendly Team",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Curious Minds Thrive Here",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Where Little Minds Blossom",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Ignite Your Child's Curiosity",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Early Learning, Lasting Impact",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              }
+            ],
+            "descriptions": [
+              {
+                "text": "Discover Little Giants Nursery, a STEM & Montessori nursery in Uxbridge.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "We provide a nurturing and stimulating environment for children aged 3 months to 5 years",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "Where young minds grow with curiosity, confidence, and care.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              },
+              {
+                "text": "We believe in fostering a love of learning that will last a lifetime.",
+                "assetPerformanceLabel": "PENDING",
+                "policySummaryInfo": {
+                  "reviewStatus": "REVIEWED",
+                  "approvalStatus": "APPROVED"
+                }
+              }
+            ],
+            "path1": "nursery",
+            "path2": "nursery-school"
+          },
+          "resourceName": "customers/7066157358/ads/817836358559",
+          "id": "817836358559",
+          "finalUrls": [
+            "https://www.littlegiantsnursery.org"
+          ]
+        },
+        "policySummary": {
+          "reviewStatus": "REVIEWED",
+          "approvalStatus": "APPROVED"
+        }
+      }
+    }
+  ],
+  "campaignAssets": [
+    {
+      "campaign": {
+        "resourceName": "customers/7066157358/campaigns/24057812593",
+        "id": "24057812593"
+      },
+      "asset": {
+        "resourceName": "customers/7066157358/assets/397494647328",
+        "type": "LEAD_FORM",
+        "id": "397494647328",
+        "finalUrls": [
+          "https://www.littlegiantsnursery.org"
+        ]
+      },
+      "campaignAsset": {
+        "resourceName": "customers/7066157358/campaignAssets/24057812593~397494647328~LEAD_FORM",
+        "fieldType": "LEAD_FORM",
+        "status": "ENABLED",
+        "asset": "customers/7066157358/assets/397494647328"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/7066157358/campaigns/24057812593",
+        "id": "24057812593"
+      },
+      "asset": {
+        "resourceName": "customers/7066157358/assets/397419668848",
+        "type": "STRUCTURED_SNIPPET",
+        "id": "397419668848",
+        "structuredSnippetAsset": {
+          "header": "Service catalog",
+          "values": [
+            "Baby Room",
+            "Toddler Room",
+            "Preschool Room",
+            "Funded Hours",
+            "Healthy Meals",
+            "Outdoor Play"
+          ]
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/7066157358/campaignAssets/24057812593~397419668848~STRUCTURED_SNIPPET",
+        "fieldType": "STRUCTURED_SNIPPET",
+        "status": "ENABLED",
+        "asset": "customers/7066157358/assets/397419668848"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/7066157358/campaigns/24057812593",
+        "id": "24057812593"
+      },
+      "asset": {
+        "resourceName": "customers/7066157358/assets/397321092347",
+        "type": "SITELINK",
+        "id": "397321092347",
+        "finalUrls": [
+          "https://www.littlegiantsnursery.org/contact"
+        ],
+        "sitelinkAsset": {
+          "linkText": "Book a Tour",
+          "description1": "Arrange a personal visit",
+          "description2": "Meet the team and see our rooms"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/7066157358/campaignAssets/24057812593~397321092347~SITELINK",
+        "fieldType": "SITELINK",
+        "status": "ENABLED",
+        "asset": "customers/7066157358/assets/397321092347"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/7066157358/campaigns/24057812593",
+        "id": "24057812593"
+      },
+      "asset": {
+        "resourceName": "customers/7066157358/assets/397321092350",
+        "type": "SITELINK",
+        "id": "397321092350",
+        "finalUrls": [
+          "https://www.littlegiantsnursery.org/fees-funding"
+        ],
+        "sitelinkAsset": {
+          "linkText": "Fees & Funding",
+          "description1": "Fees and funded hours explained",
+          "description2": "15 and 30 funded hours advice"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/7066157358/campaignAssets/24057812593~397321092350~SITELINK",
+        "fieldType": "SITELINK",
+        "status": "ENABLED",
+        "asset": "customers/7066157358/assets/397321092350"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/7066157358/campaigns/24057812593",
+        "id": "24057812593"
+      },
+      "asset": {
+        "resourceName": "customers/7066157358/assets/397321092353",
+        "type": "SITELINK",
+        "id": "397321092353",
+        "finalUrls": [
+          "https://www.littlegiantsnursery.org/about"
+        ],
+        "sitelinkAsset": {
+          "linkText": "About Us",
+          "description1": "The Old School House nursery",
+          "description2": "Our story and our educators"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/7066157358/campaignAssets/24057812593~397321092353~SITELINK",
+        "fieldType": "SITELINK",
+        "status": "ENABLED",
+        "asset": "customers/7066157358/assets/397321092353"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/7066157358/campaigns/24057812593",
+        "id": "24057812593"
+      },
+      "asset": {
+        "resourceName": "customers/7066157358/assets/397321092356",
+        "type": "SITELINK",
+        "id": "397321092356",
+        "finalUrls": [
+          "https://www.littlegiantsnursery.org/curriculum"
+        ],
+        "sitelinkAsset": {
+          "linkText": "Our Curriculum",
+          "description1": "Curiosity-led early years",
+          "description2": "STEM and Montessori inspired"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/7066157358/campaignAssets/24057812593~397321092356~SITELINK",
+        "fieldType": "SITELINK",
+        "status": "ENABLED",
+        "asset": "customers/7066157358/assets/397321092356"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/7066157358/campaigns/24057812593",
+        "id": "24057812593"
+      },
+      "asset": {
+        "resourceName": "customers/7066157358/assets/397321092359",
+        "type": "SITELINK",
+        "id": "397321092359",
+        "finalUrls": [
+          "https://www.littlegiantsnursery.org/rooms/babies"
+        ],
+        "sitelinkAsset": {
+          "linkText": "Baby Room",
+          "description1": "A calm start for babies",
+          "description2": "Warm, attentive baby care"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/7066157358/campaignAssets/24057812593~397321092359~SITELINK",
+        "fieldType": "SITELINK",
+        "status": "ENABLED",
+        "asset": "customers/7066157358/assets/397321092359"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/7066157358/campaigns/24057812593",
+        "id": "24057812593"
+      },
+      "asset": {
+        "resourceName": "customers/7066157358/assets/397321092362",
+        "type": "SITELINK",
+        "id": "397321092362",
+        "finalUrls": [
+          "https://www.littlegiantsnursery.org/rooms/preschool"
+        ],
+        "sitelinkAsset": {
+          "linkText": "Preschool Room",
+          "description1": "School-ready preschoolers",
+          "description2": "Confident, curious learners"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/7066157358/campaignAssets/24057812593~397321092362~SITELINK",
+        "fieldType": "SITELINK",
+        "status": "ENABLED",
+        "asset": "customers/7066157358/assets/397321092362"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/7066157358/campaigns/24057812593",
+        "id": "24057812593"
+      },
+      "asset": {
+        "resourceName": "customers/7066157358/assets/397401581647",
+        "type": "SITELINK",
+        "id": "397401581647",
+        "finalUrls": [
+          "https://www.littlegiantsnursery.org/about-us"
+        ],
+        "sitelinkAsset": {
+          "linkText": "About Us"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/7066157358/campaignAssets/24057812593~397401581647~SITELINK",
+        "fieldType": "SITELINK",
+        "status": "REMOVED",
+        "asset": "customers/7066157358/assets/397401581647"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/7066157358/campaigns/24057812593",
+        "id": "24057812593"
+      },
+      "asset": {
+        "resourceName": "customers/7066157358/assets/397401581650",
+        "type": "SITELINK",
+        "id": "397401581650",
+        "finalUrls": [
+          "https://www.littlegiantsnursery.org/get-in-touch"
+        ],
+        "sitelinkAsset": {
+          "linkText": "Get In Touch"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/7066157358/campaignAssets/24057812593~397401581650~SITELINK",
+        "fieldType": "SITELINK",
+        "status": "REMOVED",
+        "asset": "customers/7066157358/assets/397401581650"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/7066157358/campaigns/24057812593",
+        "id": "24057812593"
+      },
+      "asset": {
+        "resourceName": "customers/7066157358/assets/397402783591",
+        "type": "SITELINK",
+        "id": "397402783591",
+        "finalUrls": [
+          "https://www.littlegiantsnursery.org/about-us"
+        ],
+        "sitelinkAsset": {
+          "linkText": "About Us"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/7066157358/campaignAssets/24057812593~397402783591~SITELINK",
+        "fieldType": "SITELINK",
+        "status": "REMOVED",
+        "asset": "customers/7066157358/assets/397402783591"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/7066157358/campaigns/24057812593",
+        "id": "24057812593"
+      },
+      "asset": {
+        "resourceName": "customers/7066157358/assets/397402783594",
+        "type": "SITELINK",
+        "id": "397402783594",
+        "finalUrls": [
+          "https://www.littlegiantsnursery.org/get-in-touch"
+        ],
+        "sitelinkAsset": {
+          "linkText": "Get In Touch"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/7066157358/campaignAssets/24057812593~397402783594~SITELINK",
+        "fieldType": "SITELINK",
+        "status": "REMOVED",
+        "asset": "customers/7066157358/assets/397402783594"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/7066157358/campaigns/24057812593",
+        "id": "24057812593"
+      },
+      "asset": {
+        "resourceName": "customers/7066157358/assets/397476557094",
+        "type": "SITELINK",
+        "id": "397476557094",
+        "finalUrls": [
+          "https://www.littlegiantsnursery.org/about-us"
+        ],
+        "sitelinkAsset": {
+          "linkText": "About Us"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/7066157358/campaignAssets/24057812593~397476557094~SITELINK",
+        "fieldType": "SITELINK",
+        "status": "REMOVED",
+        "asset": "customers/7066157358/assets/397476557094"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/7066157358/campaigns/24057812593",
+        "id": "24057812593"
+      },
+      "asset": {
+        "resourceName": "customers/7066157358/assets/397476557097",
+        "type": "SITELINK",
+        "id": "397476557097",
+        "finalUrls": [
+          "https://www.littlegiantsnursery.org/get-in-touch"
+        ],
+        "sitelinkAsset": {
+          "linkText": "Get In Touch"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/7066157358/campaignAssets/24057812593~397476557097~SITELINK",
+        "fieldType": "SITELINK",
+        "status": "REMOVED",
+        "asset": "customers/7066157358/assets/397476557097"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/7066157358/campaigns/24057812593",
+        "id": "24057812593"
+      },
+      "asset": {
+        "resourceName": "customers/7066157358/assets/397491518064",
+        "type": "CALLOUT",
+        "id": "397491518064",
+        "calloutAsset": {
+          "calloutText": "Ofsted Registered"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/7066157358/campaignAssets/24057812593~397491518064~CALLOUT",
+        "fieldType": "CALLOUT",
+        "status": "ENABLED",
+        "asset": "customers/7066157358/assets/397491518064"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/7066157358/campaigns/24057812593",
+        "id": "24057812593"
+      },
+      "asset": {
+        "resourceName": "customers/7066157358/assets/397491518067",
+        "type": "CALLOUT",
+        "id": "397491518067",
+        "calloutAsset": {
+          "calloutText": "Open 51 Weeks a Year"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/7066157358/campaignAssets/24057812593~397491518067~CALLOUT",
+        "fieldType": "CALLOUT",
+        "status": "ENABLED",
+        "asset": "customers/7066157358/assets/397491518067"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/7066157358/campaigns/24057812593",
+        "id": "24057812593"
+      },
+      "asset": {
+        "resourceName": "customers/7066157358/assets/397491518070",
+        "type": "CALLOUT",
+        "id": "397491518070",
+        "calloutAsset": {
+          "calloutText": "7:30am to 6pm Weekdays"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/7066157358/campaignAssets/24057812593~397491518070~CALLOUT",
+        "fieldType": "CALLOUT",
+        "status": "ENABLED",
+        "asset": "customers/7066157358/assets/397491518070"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/7066157358/campaigns/24057812593",
+        "id": "24057812593"
+      },
+      "asset": {
+        "resourceName": "customers/7066157358/assets/397491518073",
+        "type": "CALLOUT",
+        "id": "397491518073",
+        "calloutAsset": {
+          "calloutText": "Off-Street Parking"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/7066157358/campaignAssets/24057812593~397491518073~CALLOUT",
+        "fieldType": "CALLOUT",
+        "status": "ENABLED",
+        "asset": "customers/7066157358/assets/397491518073"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/7066157358/campaigns/24057812593",
+        "id": "24057812593"
+      },
+      "asset": {
+        "resourceName": "customers/7066157358/assets/397491518076",
+        "type": "CALLOUT",
+        "id": "397491518076",
+        "calloutAsset": {
+          "calloutText": "Curiosity-Led Learning"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/7066157358/campaignAssets/24057812593~397491518076~CALLOUT",
+        "fieldType": "CALLOUT",
+        "status": "ENABLED",
+        "asset": "customers/7066157358/assets/397491518076"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/7066157358/campaigns/24057812593",
+        "id": "24057812593"
+      },
+      "asset": {
+        "resourceName": "customers/7066157358/assets/397491518079",
+        "type": "CALLOUT",
+        "id": "397491518079",
+        "calloutAsset": {
+          "calloutText": "STEM Through Play"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/7066157358/campaignAssets/24057812593~397491518079~CALLOUT",
+        "fieldType": "CALLOUT",
+        "status": "ENABLED",
+        "asset": "customers/7066157358/assets/397491518079"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/7066157358/campaigns/24057812593",
+        "id": "24057812593"
+      },
+      "asset": {
+        "resourceName": "customers/7066157358/assets/397491518082",
+        "type": "CALLOUT",
+        "id": "397491518082",
+        "calloutAsset": {
+          "calloutText": "Montessori Inspired"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/7066157358/campaignAssets/24057812593~397491518082~CALLOUT",
+        "fieldType": "CALLOUT",
+        "status": "ENABLED",
+        "asset": "customers/7066157358/assets/397491518082"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/7066157358/campaigns/24057812593",
+        "id": "24057812593"
+      },
+      "asset": {
+        "resourceName": "customers/7066157358/assets/397491518085",
+        "type": "CALLOUT",
+        "id": "397491518085",
+        "calloutAsset": {
+          "calloutText": "Book a Tour Today"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/7066157358/campaignAssets/24057812593~397491518085~CALLOUT",
+        "fieldType": "CALLOUT",
+        "status": "ENABLED",
+        "asset": "customers/7066157358/assets/397491518085"
+      }
+    }
+  ],
+  "customerAssets": [
+    {
+      "asset": {
+        "resourceName": "customers/7066157358/assets/389897650999",
+        "type": "CALL",
+        "id": "389897650999",
+        "callAsset": {
+          "countryCode": "GB",
+          "phoneNumber": "01895 603097"
+        }
+      },
+      "customerAsset": {
+        "resourceName": "customers/7066157358/customerAssets/389897650999~CALL",
+        "asset": "customers/7066157358/assets/389897650999",
+        "fieldType": "CALL",
+        "status": "ENABLED"
+      }
+    }
+  ],
+  "conversionActions": [
+    {
+      "conversionAction": {
+        "resourceName": "customers/7066157358/conversionActions/7680463144",
+        "status": "ENABLED",
+        "type": "AD_CALL",
+        "category": "PHONE_CALL_LEAD",
+        "countingType": "MANY_PER_CLICK",
+        "id": "7680463144",
+        "name": "Calls from ads",
+        "primaryForGoal": true
+      }
+    },
+    {
+      "conversionAction": {
+        "resourceName": "customers/7066157358/conversionActions/7682579167",
+        "status": "ENABLED",
+        "type": "GOOGLE_HOSTED",
+        "category": "GET_DIRECTIONS",
+        "countingType": "MANY_PER_CLICK",
+        "id": "7682579167",
+        "name": "Local actions - Directions",
+        "primaryForGoal": true
+      }
+    },
+    {
+      "conversionAction": {
+        "resourceName": "customers/7066157358/conversionActions/7692471572",
+        "status": "ENABLED",
+        "type": "LEAD_FORM_SUBMIT",
+        "category": "SUBMIT_LEAD_FORM",
+        "countingType": "ONE_PER_CLICK",
+        "id": "7692471572",
+        "name": "Lead form - Submit",
+        "primaryForGoal": true
+      }
+    },
+    {
+      "conversionAction": {
+        "resourceName": "customers/7066157358/conversionActions/7692749952",
+        "status": "REMOVED",
+        "type": "WEBPAGE",
+        "category": "SUBMIT_LEAD_FORM",
+        "countingType": "ONE_PER_CLICK",
+        "id": "7692749952",
+        "name": "Contact Form Submission",
+        "primaryForGoal": true
+      }
+    },
+    {
+      "conversionAction": {
+        "resourceName": "customers/7066157358/conversionActions/7692749955",
+        "status": "REMOVED",
+        "type": "WEBPAGE",
+        "category": "CONTACT",
+        "countingType": "ONE_PER_CLICK",
+        "id": "7692749955",
+        "name": "Telephone Link Click",
+        "primaryForGoal": true
+      }
+    },
+    {
+      "conversionAction": {
+        "resourceName": "customers/7066157358/conversionActions/7692809935",
+        "status": "REMOVED",
+        "type": "WEBPAGE",
+        "category": "CONTACT",
+        "countingType": "ONE_PER_CLICK",
+        "id": "7692809935",
+        "name": "Mailto Link Click",
+        "primaryForGoal": true
+      }
+    },
+    {
+      "conversionAction": {
+        "resourceName": "customers/7066157358/conversionActions/7707536120",
+        "status": "REMOVED",
+        "type": "WEBPAGE",
+        "category": "SUBMIT_LEAD_FORM",
+        "countingType": "ONE_PER_CLICK",
+        "id": "7707536120",
+        "name": "EyLog Enquiry Click",
+        "primaryForGoal": true
+      }
+    },
+    {
+      "conversionAction": {
+        "resourceName": "customers/7066157358/conversionActions/7707884580",
+        "status": "HIDDEN",
+        "type": "GOOGLE_ANALYTICS_4_CLOSE_CONVERT_LEAD",
+        "category": "CONVERTED_LEAD",
+        "countingType": "MANY_PER_CLICK",
+        "id": "7707884580",
+        "name": "littlegiantsnursery (web) close_convert_lead",
+        "primaryForGoal": false
+      }
+    },
+    {
+      "conversionAction": {
+        "resourceName": "customers/7066157358/conversionActions/7707884583",
+        "status": "HIDDEN",
+        "type": "GOOGLE_ANALYTICS_4_QUALIFY_LEAD",
+        "category": "QUALIFIED_LEAD",
+        "countingType": "MANY_PER_CLICK",
+        "id": "7707884583",
+        "name": "littlegiantsnursery (web) qualify_lead",
+        "primaryForGoal": false
+      }
+    },
+    {
+      "conversionAction": {
+        "resourceName": "customers/7066157358/conversionActions/7707884586",
+        "status": "HIDDEN",
+        "type": "GOOGLE_ANALYTICS_4_PURCHASE",
+        "category": "PURCHASE",
+        "countingType": "MANY_PER_CLICK",
+        "id": "7707884586",
+        "name": "littlegiantsnursery (web) purchase",
+        "primaryForGoal": false
+      }
+    },
+    {
+      "conversionAction": {
+        "resourceName": "customers/7066157358/conversionActions/7707884589",
+        "status": "ENABLED",
+        "type": "GOOGLE_ANALYTICS_4_CUSTOM",
+        "category": "CONTACT",
+        "countingType": "ONE_PER_CLICK",
+        "id": "7707884589",
+        "name": "littlegiantsnursery (web) mailto_link_click",
+        "primaryForGoal": true
+      }
+    },
+    {
+      "conversionAction": {
+        "resourceName": "customers/7066157358/conversionActions/7707884592",
+        "status": "ENABLED",
+        "type": "GOOGLE_ANALYTICS_4_CUSTOM",
+        "category": "CONTACT",
+        "countingType": "ONE_PER_CLICK",
+        "id": "7707884592",
+        "name": "littlegiantsnursery (web) telephone_link_click",
+        "primaryForGoal": true
+      }
+    },
+    {
+      "conversionAction": {
+        "resourceName": "customers/7066157358/conversionActions/7707884595",
+        "status": "ENABLED",
+        "type": "GOOGLE_ANALYTICS_4_CUSTOM",
+        "category": "CONTACT",
+        "countingType": "ONE_PER_CLICK",
+        "id": "7707884595",
+        "name": "littlegiantsnursery (web) eylog_enquiry_click",
+        "primaryForGoal": true
+      }
+    },
+    {
+      "conversionAction": {
+        "resourceName": "customers/7066157358/conversionActions/7713125018",
+        "status": "ENABLED",
+        "type": "GOOGLE_HOSTED",
+        "category": "ENGAGEMENT",
+        "countingType": "MANY_PER_CLICK",
+        "id": "7713125018",
+        "name": "Local actions - Other engagements",
+        "primaryForGoal": true
+      }
+    },
+    {
+      "conversionAction": {
+        "resourceName": "customers/7066157358/conversionActions/7714286856",
+        "status": "ENABLED",
+        "type": "GOOGLE_HOSTED",
+        "category": "PAGE_VIEW",
+        "countingType": "MANY_PER_CLICK",
+        "id": "7714286856",
+        "name": "Local actions - Website visits",
+        "primaryForGoal": true
+      }
+    },
+    {
+      "conversionAction": {
+        "resourceName": "customers/7066157358/conversionActions/7722444694",
+        "status": "ENABLED",
+        "type": "GOOGLE_HOSTED",
+        "category": "CONTACT",
+        "countingType": "MANY_PER_CLICK",
+        "id": "7722444694",
+        "name": "Clicks to call",
+        "primaryForGoal": true
+      }
+    }
+  ]
+}

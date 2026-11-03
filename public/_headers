@@ -1,0 +1,20 @@
+/_next/static/*
+  Cache-Control: public,max-age=31536000,immutable
+
+/images/*
+  Cache-Control: public,max-age=2592000
+  X-Content-Type-Options: nosniff
+
+/og/*
+  Cache-Control: public,max-age=86400
+  X-Content-Type-Options: nosniff
+
+/s/*
+  Cache-Control: public,max-age=86400
+  X-Content-Type-Options: nosniff
+
+/*
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN

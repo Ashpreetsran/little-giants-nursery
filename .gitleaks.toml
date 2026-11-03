@@ -1,0 +1,11 @@
+title = "Little Giants Nursery secret scanning"
+
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "The EyLog JWT is part of the nursery's public enquiry URL and contains only branch and company identifiers."
+regexTarget = "line"
+regexes = [
+  '''https://littlegiantsnursery\.eylog\.co\.uk/eyMan/index\.php/enquiries/registerEnquiry\?token=[A-Za-z0-9_-]+\.[A-Za-z0-9_-]+\.[A-Za-z0-9_-]+'''
+]
